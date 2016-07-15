@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F9C64BAD4402CD15668A2C /* ofxAudioFeaturesChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91821B92C0988056EC2F9256 /* ofxAudioFeaturesChannel.cpp */; };
+		900713E61CE42B0700FD2388 /* scUBlibsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900713E31CE42B0700FD2388 /* scUBlibsndfile.a */; };
+		900713F21CE432CD00FD2388 /* sptree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900713EB1CE432CD00FD2388 /* sptree.cpp */; };
+		900713F31CE432CD00FD2388 /* tsne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900713ED1CE432CD00FD2388 /* tsne.cpp */; };
+		900713F41CE432CD00FD2388 /* ofxTSNE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900713F01CE432CD00FD2388 /* ofxTSNE.cpp */; };
+		900714681CE7DB5E00FD2388 /* ofxOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714411CE7DB5E00FD2388 /* ofxOscBundle.cpp */; };
+		900714691CE7DB5E00FD2388 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714431CE7DB5E00FD2388 /* ofxOscMessage.cpp */; };
+		9007146A1CE7DB5E00FD2388 /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714451CE7DB5E00FD2388 /* ofxOscParameterSync.cpp */; };
+		9007146B1CE7DB5E00FD2388 /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714471CE7DB5E00FD2388 /* ofxOscReceiver.cpp */; };
+		9007146C1CE7DB5E00FD2388 /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714491CE7DB5E00FD2388 /* ofxOscSender.cpp */; };
+		9007146D1CE7DB5E00FD2388 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007144F1CE7DB5E00FD2388 /* IpEndpointName.cpp */; };
+		9007146E1CE7DB5E00FD2388 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714541CE7DB5E00FD2388 /* NetworkingUtils.cpp */; };
+		9007146F1CE7DB5E00FD2388 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714551CE7DB5E00FD2388 /* UdpSocket.cpp */; };
+		900714701CE7DB5E00FD2388 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007145F1CE7DB5E00FD2388 /* OscOutboundPacketStream.cpp */; };
+		900714711CE7DB5E00FD2388 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714621CE7DB5E00FD2388 /* OscPrintReceivedElements.cpp */; };
+		900714721CE7DB5E00FD2388 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714641CE7DB5E00FD2388 /* OscReceivedElements.cpp */; };
+		900714731CE7DB5E00FD2388 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714661CE7DB5E00FD2388 /* OscTypes.cpp */; };
+		900714AF1CED6C1800FD2388 /* BleachBypassPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007147C1CED6C1800FD2388 /* BleachBypassPass.cpp */; };
+		900714B01CED6C1800FD2388 /* BloomPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007147E1CED6C1800FD2388 /* BloomPass.cpp */; };
+		900714B11CED6C1800FD2388 /* ContrastPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714801CED6C1800FD2388 /* ContrastPass.cpp */; };
+		900714B21CED6C1800FD2388 /* ConvolutionPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714821CED6C1800FD2388 /* ConvolutionPass.cpp */; };
+		900714B31CED6C1800FD2388 /* DofAltPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714841CED6C1800FD2388 /* DofAltPass.cpp */; };
+		900714B41CED6C1800FD2388 /* DofPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714861CED6C1800FD2388 /* DofPass.cpp */; };
+		900714B51CED6C1800FD2388 /* EdgePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714881CED6C1800FD2388 /* EdgePass.cpp */; };
+		900714B61CED6C1800FD2388 /* FakeSSSPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007148A1CED6C1800FD2388 /* FakeSSSPass.cpp */; };
+		900714B71CED6C1800FD2388 /* FxaaPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007148C1CED6C1800FD2388 /* FxaaPass.cpp */; };
+		900714B81CED6C1800FD2388 /* GodRaysPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007148E1CED6C1800FD2388 /* GodRaysPass.cpp */; };
+		900714B91CED6C1800FD2388 /* HorizontalTiltShifPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714901CED6C1800FD2388 /* HorizontalTiltShifPass.cpp */; };
+		900714BA1CED6C1800FD2388 /* HsbShiftPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714921CED6C1800FD2388 /* HsbShiftPass.cpp */; };
+		900714BB1CED6C1800FD2388 /* KaleidoscopePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714941CED6C1800FD2388 /* KaleidoscopePass.cpp */; };
+		900714BC1CED6C1800FD2388 /* LimbDarkeningPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714961CED6C1800FD2388 /* LimbDarkeningPass.cpp */; };
+		900714BD1CED6C1800FD2388 /* LUTPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714981CED6C1800FD2388 /* LUTPass.cpp */; };
+		900714BE1CED6C1800FD2388 /* NoiseWarpPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007149A1CED6C1800FD2388 /* NoiseWarpPass.cpp */; };
+		900714BF1CED6C1800FD2388 /* PixelatePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007149D1CED6C1800FD2388 /* PixelatePass.cpp */; };
+		900714C01CED6C1800FD2388 /* PostProcessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9007149F1CED6C1800FD2388 /* PostProcessing.cpp */; };
+		900714C11CED6C1800FD2388 /* RenderPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714A11CED6C1800FD2388 /* RenderPass.cpp */; };
+		900714C21CED6C1800FD2388 /* RGBShiftPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714A31CED6C1800FD2388 /* RGBShiftPass.cpp */; };
+		900714C31CED6C1800FD2388 /* RimHighlightingPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714A51CED6C1800FD2388 /* RimHighlightingPass.cpp */; };
+		900714C41CED6C1800FD2388 /* SSAOPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714A71CED6C1800FD2388 /* SSAOPass.cpp */; };
+		900714C51CED6C1800FD2388 /* ToonPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714A91CED6C1800FD2388 /* ToonPass.cpp */; };
+		900714C61CED6C1800FD2388 /* VerticalTiltShifPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714AB1CED6C1800FD2388 /* VerticalTiltShifPass.cpp */; };
+		900714C71CED6C1800FD2388 /* ZoomBlurPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714AD1CED6C1800FD2388 /* ZoomBlurPass.cpp */; };
+		9177F62ACD8B721065A083F0 /* ofxAudioDeviceControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE197401A06411E94419EE79 /* ofxAudioDeviceControl.mm */; };
+		DB0886176363032DAB378E33 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 5565F17457B99E20477BB488 /* LICENSE */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02E6A30533ED6AE033A86D22 /* sink_sndfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sink_sndfile.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/sink_sndfile.h; sourceTree = SOURCE_ROOT; };
+		092ED5D85770D7E2C67849FA /* musicutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = musicutils.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/musicutils.h; sourceTree = SOURCE_ROOT; };
+		10DB41C23E0C6B451B577677 /* cvec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cvec.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/cvec.h; sourceTree = SOURCE_ROOT; };
+		11624C3A46B624C1CFD76949 /* tempo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tempo.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/tempo/tempo.h; sourceTree = SOURCE_ROOT; };
+		1EBFBE0F709279753850E929 /* filterbank.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filterbank.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/filterbank.h; sourceTree = SOURCE_ROOT; };
+		2044F74BD2D992DFB2F6E7DC /* c_weighting.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = c_weighting.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal/c_weighting.h; sourceTree = SOURCE_ROOT; };
+		26B1E3FC6B1F730AA88DA332 /* fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fft.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/fft.h; sourceTree = SOURCE_ROOT; };
+		31B09A89C80BEF9C5094DE13 /* filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filter.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal/filter.h; sourceTree = SOURCE_ROOT; };
+		31E3C1217FF7680F696071BD /* mfcc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mfcc.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/mfcc.h; sourceTree = SOURCE_ROOT; };
+		36B5DE60DF1AE153E2129A9E /* pitchyin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchyin.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchyin.h; sourceTree = SOURCE_ROOT; };
+		383F05CD04B1CCFF2BAD7B6A /* mathutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mathutils.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/mathutils.h; sourceTree = SOURCE_ROOT; };
+		39521A46CF429C0953B420F7 /* biquad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = biquad.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal/biquad.h; sourceTree = SOURCE_ROOT; };
+		4836B61A63CE05E7F97DEEE0 /* fvec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fvec.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/fvec.h; sourceTree = SOURCE_ROOT; };
+		4DF426EBFE9A7F6E5B00AC02 /* fmat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fmat.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/fmat.h; sourceTree = SOURCE_ROOT; };
+		4F8AFF8D3FA91D932FEBB1C1 /* sink_apple_audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sink_apple_audio.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/sink_apple_audio.h; sourceTree = SOURCE_ROOT; };
+		50555BF4E5366BC9CCC54F9E /* hist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = hist.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/utils/hist.h; sourceTree = SOURCE_ROOT; };
+		51C5E490D52815F7CDC14EE8 /* pitchmcomb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchmcomb.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchmcomb.h; sourceTree = SOURCE_ROOT; };
+		51FC5FE96346B4B3DF633181 /* types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = types.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/types.h; sourceTree = SOURCE_ROOT; };
+		526FF3DA7A2AFA7A8F02036D /* lvec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lvec.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/lvec.h; sourceTree = SOURCE_ROOT; };
+		5565F17457B99E20477BB488 /* LICENSE */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = LICENSE; path = ../../../addons/ofxAudioFeatures/src/LICENSE; sourceTree = SOURCE_ROOT; };
+		57A2DF3C11E2CFA840AFA2A0 /* vecutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vecutils.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/vecutils.h; sourceTree = SOURCE_ROOT; };
+		61A50196EE25BF5121ADEAEE /* source.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = source.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/source.h; sourceTree = SOURCE_ROOT; };
+		681F7BC2FA4AFD4B4960D198 /* source_sndfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = source_sndfile.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/source_sndfile.h; sourceTree = SOURCE_ROOT; };
+		69A283157095D3C1C299F1E1 /* peakpicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = peakpicker.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/onset/peakpicker.h; sourceTree = SOURCE_ROOT; };
+		69F4B5E1F93C0FE22725CCE5 /* ofxAudioFeaturesChannel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAudioFeaturesChannel.h; path = ../../../addons/ofxAudioFeatures/src/ofxAudioFeaturesChannel.h; sourceTree = SOURCE_ROOT; };
+		793064F45A89B8029D32194D /* pitch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitch.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitch.h; sourceTree = SOURCE_ROOT; };
+		7B9386DB318E6EFD053ACA1D /* onset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = onset.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/onset/onset.h; sourceTree = SOURCE_ROOT; };
+		7EA9BAAE4FB502EE7B7D74F0 /* ofxAudioDeviceControl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAudioDeviceControl.h; path = ../../../addons/ofxAudioFeatures/src/ofxAudioDeviceControl.h; sourceTree = SOURCE_ROOT; };
+		8201BA1DC96F96AAFCC67625 /* a_weighting.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = a_weighting.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal/a_weighting.h; sourceTree = SOURCE_ROOT; };
+		844D8F5053E4B9197B72AC70 /* specdesc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = specdesc.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/specdesc.h; sourceTree = SOURCE_ROOT; };
+		8CEE0F81B84D3CD30ACD70C9 /* scale.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = scale.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/utils/scale.h; sourceTree = SOURCE_ROOT; };
+		8D629A672A23B0BF4F3AAC55 /* phasevoc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = phasevoc.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/phasevoc.h; sourceTree = SOURCE_ROOT; };
+		8ED17A64D7F7169EA04FA9EA /* tss.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tss.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/tss.h; sourceTree = SOURCE_ROOT; };
+		900713E31CE42B0700FD2388 /* scUBlibsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = scUBlibsndfile.a; sourceTree = "<group>"; };
+		900713E41CE42B0700FD2388 /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sndfile.h; sourceTree = "<group>"; };
+		900713E51CE42B0700FD2388 /* sndfile.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sndfile.hh; sourceTree = "<group>"; };
+		900713EB1CE432CD00FD2388 /* sptree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sptree.cpp; sourceTree = "<group>"; };
+		900713EC1CE432CD00FD2388 /* sptree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sptree.h; sourceTree = "<group>"; };
+		900713ED1CE432CD00FD2388 /* tsne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tsne.cpp; sourceTree = "<group>"; };
+		900713EE1CE432CD00FD2388 /* tsne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tsne.h; sourceTree = "<group>"; };
+		900713EF1CE432CD00FD2388 /* vptree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vptree.h; sourceTree = "<group>"; };
+		900713F01CE432CD00FD2388 /* ofxTSNE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTSNE.cpp; sourceTree = "<group>"; };
+		900713F11CE432CD00FD2388 /* ofxTSNE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxTSNE.h; sourceTree = "<group>"; };
+		9007143F1CE7DB5E00FD2388 /* ofxOsc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOsc.h; sourceTree = "<group>"; };
+		900714401CE7DB5E00FD2388 /* ofxOscArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscArg.h; sourceTree = "<group>"; };
+		900714411CE7DB5E00FD2388 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscBundle.cpp; sourceTree = "<group>"; };
+		900714421CE7DB5E00FD2388 /* ofxOscBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscBundle.h; sourceTree = "<group>"; };
+		900714431CE7DB5E00FD2388 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscMessage.cpp; sourceTree = "<group>"; };
+		900714441CE7DB5E00FD2388 /* ofxOscMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscMessage.h; sourceTree = "<group>"; };
+		900714451CE7DB5E00FD2388 /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscParameterSync.cpp; sourceTree = "<group>"; };
+		900714461CE7DB5E00FD2388 /* ofxOscParameterSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscParameterSync.h; sourceTree = "<group>"; };
+		900714471CE7DB5E00FD2388 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscReceiver.cpp; sourceTree = "<group>"; };
+		900714481CE7DB5E00FD2388 /* ofxOscReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscReceiver.h; sourceTree = "<group>"; };
+		900714491CE7DB5E00FD2388 /* ofxOscSender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscSender.cpp; sourceTree = "<group>"; };
+		9007144A1CE7DB5E00FD2388 /* ofxOscSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscSender.h; sourceTree = "<group>"; };
+		9007144F1CE7DB5E00FD2388 /* IpEndpointName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IpEndpointName.cpp; sourceTree = "<group>"; };
+		900714501CE7DB5E00FD2388 /* IpEndpointName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IpEndpointName.h; sourceTree = "<group>"; };
+		900714511CE7DB5E00FD2388 /* NetworkingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingUtils.h; sourceTree = "<group>"; };
+		900714521CE7DB5E00FD2388 /* PacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketListener.h; sourceTree = "<group>"; };
+		900714541CE7DB5E00FD2388 /* NetworkingUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkingUtils.cpp; sourceTree = "<group>"; };
+		900714551CE7DB5E00FD2388 /* UdpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
+		900714561CE7DB5E00FD2388 /* TimerListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerListener.h; sourceTree = "<group>"; };
+		900714571CE7DB5E00FD2388 /* UdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		9007145C1CE7DB5E00FD2388 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
+		9007145D1CE7DB5E00FD2388 /* OscException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
+		9007145E1CE7DB5E00FD2388 /* OscHostEndianness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscHostEndianness.h; sourceTree = "<group>"; };
+		9007145F1CE7DB5E00FD2388 /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscOutboundPacketStream.cpp; sourceTree = "<group>"; };
+		900714601CE7DB5E00FD2388 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscOutboundPacketStream.h; sourceTree = "<group>"; };
+		900714611CE7DB5E00FD2388 /* OscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscPacketListener.h; sourceTree = "<group>"; };
+		900714621CE7DB5E00FD2388 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscPrintReceivedElements.cpp; sourceTree = "<group>"; };
+		900714631CE7DB5E00FD2388 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscPrintReceivedElements.h; sourceTree = "<group>"; };
+		900714641CE7DB5E00FD2388 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscReceivedElements.cpp; sourceTree = "<group>"; };
+		900714651CE7DB5E00FD2388 /* OscReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscReceivedElements.h; sourceTree = "<group>"; };
+		900714661CE7DB5E00FD2388 /* OscTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscTypes.cpp; sourceTree = "<group>"; };
+		900714671CE7DB5E00FD2388 /* OscTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
+		9007147C1CED6C1800FD2388 /* BleachBypassPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BleachBypassPass.cpp; sourceTree = "<group>"; };
+		9007147D1CED6C1800FD2388 /* BleachBypassPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BleachBypassPass.h; sourceTree = "<group>"; };
+		9007147E1CED6C1800FD2388 /* BloomPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BloomPass.cpp; sourceTree = "<group>"; };
+		9007147F1CED6C1800FD2388 /* BloomPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloomPass.h; sourceTree = "<group>"; };
+		900714801CED6C1800FD2388 /* ContrastPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContrastPass.cpp; sourceTree = "<group>"; };
+		900714811CED6C1800FD2388 /* ContrastPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContrastPass.h; sourceTree = "<group>"; };
+		900714821CED6C1800FD2388 /* ConvolutionPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvolutionPass.cpp; sourceTree = "<group>"; };
+		900714831CED6C1800FD2388 /* ConvolutionPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvolutionPass.h; sourceTree = "<group>"; };
+		900714841CED6C1800FD2388 /* DofAltPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DofAltPass.cpp; sourceTree = "<group>"; };
+		900714851CED6C1800FD2388 /* DofAltPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DofAltPass.h; sourceTree = "<group>"; };
+		900714861CED6C1800FD2388 /* DofPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DofPass.cpp; sourceTree = "<group>"; };
+		900714871CED6C1800FD2388 /* DofPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DofPass.h; sourceTree = "<group>"; };
+		900714881CED6C1800FD2388 /* EdgePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EdgePass.cpp; sourceTree = "<group>"; };
+		900714891CED6C1800FD2388 /* EdgePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdgePass.h; sourceTree = "<group>"; };
+		9007148A1CED6C1800FD2388 /* FakeSSSPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSSSPass.cpp; sourceTree = "<group>"; };
+		9007148B1CED6C1800FD2388 /* FakeSSSPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeSSSPass.h; sourceTree = "<group>"; };
+		9007148C1CED6C1800FD2388 /* FxaaPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FxaaPass.cpp; sourceTree = "<group>"; };
+		9007148D1CED6C1800FD2388 /* FxaaPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FxaaPass.h; sourceTree = "<group>"; };
+		9007148E1CED6C1800FD2388 /* GodRaysPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GodRaysPass.cpp; sourceTree = "<group>"; };
+		9007148F1CED6C1800FD2388 /* GodRaysPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodRaysPass.h; sourceTree = "<group>"; };
+		900714901CED6C1800FD2388 /* HorizontalTiltShifPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HorizontalTiltShifPass.cpp; sourceTree = "<group>"; };
+		900714911CED6C1800FD2388 /* HorizontalTiltShifPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalTiltShifPass.h; sourceTree = "<group>"; };
+		900714921CED6C1800FD2388 /* HsbShiftPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HsbShiftPass.cpp; sourceTree = "<group>"; };
+		900714931CED6C1800FD2388 /* HsbShiftPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HsbShiftPass.h; sourceTree = "<group>"; };
+		900714941CED6C1800FD2388 /* KaleidoscopePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KaleidoscopePass.cpp; sourceTree = "<group>"; };
+		900714951CED6C1800FD2388 /* KaleidoscopePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaleidoscopePass.h; sourceTree = "<group>"; };
+		900714961CED6C1800FD2388 /* LimbDarkeningPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LimbDarkeningPass.cpp; sourceTree = "<group>"; };
+		900714971CED6C1800FD2388 /* LimbDarkeningPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LimbDarkeningPass.h; sourceTree = "<group>"; };
+		900714981CED6C1800FD2388 /* LUTPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUTPass.cpp; sourceTree = "<group>"; };
+		900714991CED6C1800FD2388 /* LUTPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUTPass.h; sourceTree = "<group>"; };
+		9007149A1CED6C1800FD2388 /* NoiseWarpPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NoiseWarpPass.cpp; sourceTree = "<group>"; };
+		9007149B1CED6C1800FD2388 /* NoiseWarpPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoiseWarpPass.h; sourceTree = "<group>"; };
+		9007149C1CED6C1800FD2388 /* ofxPostProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPostProcessing.h; sourceTree = "<group>"; };
+		9007149D1CED6C1800FD2388 /* PixelatePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PixelatePass.cpp; sourceTree = "<group>"; };
+		9007149E1CED6C1800FD2388 /* PixelatePass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixelatePass.h; sourceTree = "<group>"; };
+		9007149F1CED6C1800FD2388 /* PostProcessing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PostProcessing.cpp; sourceTree = "<group>"; };
+		900714A01CED6C1800FD2388 /* PostProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostProcessing.h; sourceTree = "<group>"; };
+		900714A11CED6C1800FD2388 /* RenderPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RenderPass.cpp; sourceTree = "<group>"; };
+		900714A21CED6C1800FD2388 /* RenderPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderPass.h; sourceTree = "<group>"; };
+		900714A31CED6C1800FD2388 /* RGBShiftPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RGBShiftPass.cpp; sourceTree = "<group>"; };
+		900714A41CED6C1800FD2388 /* RGBShiftPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBShiftPass.h; sourceTree = "<group>"; };
+		900714A51CED6C1800FD2388 /* RimHighlightingPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RimHighlightingPass.cpp; sourceTree = "<group>"; };
+		900714A61CED6C1800FD2388 /* RimHighlightingPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RimHighlightingPass.h; sourceTree = "<group>"; };
+		900714A71CED6C1800FD2388 /* SSAOPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SSAOPass.cpp; sourceTree = "<group>"; };
+		900714A81CED6C1800FD2388 /* SSAOPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAOPass.h; sourceTree = "<group>"; };
+		900714A91CED6C1800FD2388 /* ToonPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ToonPass.cpp; sourceTree = "<group>"; };
+		900714AA1CED6C1800FD2388 /* ToonPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToonPass.h; sourceTree = "<group>"; };
+		900714AB1CED6C1800FD2388 /* VerticalTiltShifPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VerticalTiltShifPass.cpp; sourceTree = "<group>"; };
+		900714AC1CED6C1800FD2388 /* VerticalTiltShifPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalTiltShifPass.h; sourceTree = "<group>"; };
+		900714AD1CED6C1800FD2388 /* ZoomBlurPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZoomBlurPass.cpp; sourceTree = "<group>"; };
+		900714AE1CED6C1800FD2388 /* ZoomBlurPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomBlurPass.h; sourceTree = "<group>"; };
+		908B13275B242F3EA5F76EEA /* source_apple_audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = source_apple_audio.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/source_apple_audio.h; sourceTree = SOURCE_ROOT; };
+		91821B92C0988056EC2F9256 /* ofxAudioFeaturesChannel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAudioFeaturesChannel.cpp; path = ../../../addons/ofxAudioFeatures/src/ofxAudioFeaturesChannel.cpp; sourceTree = SOURCE_ROOT; };
+		A894F34D53BC78B83158FDEE /* pitchyinfft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchyinfft.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchyinfft.h; sourceTree = SOURCE_ROOT; };
+		AE197401A06411E94419EE79 /* ofxAudioDeviceControl.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxAudioDeviceControl.mm; path = ../../../addons/ofxAudioFeatures/src/ofxAudioDeviceControl.mm; sourceTree = SOURCE_ROOT; };
+		AF103CEE43428D4C8551ED36 /* resampler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = resampler.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal/resampler.h; sourceTree = SOURCE_ROOT; };
+		B0B6EF264BCB79B6783E4AA1 /* pitchschmitt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchschmitt.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchschmitt.h; sourceTree = SOURCE_ROOT; };
+		B17863A56D338B85F51A0B00 /* beattracking.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = beattracking.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/tempo/beattracking.h; sourceTree = SOURCE_ROOT; };
+		B856461D034B019119E52B15 /* sampler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sampler.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/synth/sampler.h; sourceTree = SOURCE_ROOT; };
+		BA6649C7A735BE4BBD781320 /* aubio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aubio.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/aubio.h; sourceTree = SOURCE_ROOT; };
+		BB415972695B855E7CFBD323 /* filterbank_mel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filterbank_mel.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral/filterbank_mel.h; sourceTree = SOURCE_ROOT; };
+		DDCDBD31E1789BCE32A7DD09 /* sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sink.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/sink.h; sourceTree = SOURCE_ROOT; };
+		E09F22657CCD145439A09216 /* sndfileio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sndfileio.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/sndfileio.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* audioTSNEDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioTSNEDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E58D0A498F190472ADA6C854 /* pitchspecacf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchspecacf.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchspecacf.h; sourceTree = SOURCE_ROOT; };
+		F4FF502B29F2CC5AAA5C3B82 /* pitchfcomb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchfcomb.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchfcomb.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900713E61CE42B0700FD2388 /* scUBlibsndfile.a in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009D3EA900245BB55761A717 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5565F17457B99E20477BB488 /* LICENSE */,
+				7EA9BAAE4FB502EE7B7D74F0 /* ofxAudioDeviceControl.h */,
+				AE197401A06411E94419EE79 /* ofxAudioDeviceControl.mm */,
+				91821B92C0988056EC2F9256 /* ofxAudioFeaturesChannel.cpp */,
+				69F4B5E1F93C0FE22725CCE5 /* ofxAudioFeaturesChannel.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		03D682A8BCC2490DB16283B7 /* onset */ = {
+			isa = PBXGroup;
+			children = (
+				7B9386DB318E6EFD053ACA1D /* onset.h */,
+				69A283157095D3C1C299F1E1 /* peakpicker.h */,
+			);
+			name = onset;
+			sourceTree = "<group>";
+		};
+		0A3F8FB7B08F62C96E265D3B /* synth */ = {
+			isa = PBXGroup;
+			children = (
+				B856461D034B019119E52B15 /* sampler.h */,
+			);
+			name = synth;
+			sourceTree = "<group>";
+		};
+		0ABDFC5B77566FFAF1610B8A /* ofxAudioFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				009D3EA900245BB55761A717 /* src */,
+				37ADFE3B849369D95B1B1B4D /* libs */,
+			);
+			name = ofxAudioFeatures;
+			sourceTree = "<group>";
+		};
+		19BA9AD7E40ADB4531322B8F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				50555BF4E5366BC9CCC54F9E /* hist.h */,
+				8CEE0F81B84D3CD30ACD70C9 /* scale.h */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		2B3A895C2356C74199805CFD /* aubio */ = {
+			isa = PBXGroup;
+			children = (
+				BA6649C7A735BE4BBD781320 /* aubio.h */,
+				10DB41C23E0C6B451B577677 /* cvec.h */,
+				4DF426EBFE9A7F6E5B00AC02 /* fmat.h */,
+				4836B61A63CE05E7F97DEEE0 /* fvec.h */,
+				96F08A80481AA5BE0AA8A378 /* io */,
+				526FF3DA7A2AFA7A8F02036D /* lvec.h */,
+				383F05CD04B1CCFF2BAD7B6A /* mathutils.h */,
+				092ED5D85770D7E2C67849FA /* musicutils.h */,
+				03D682A8BCC2490DB16283B7 /* onset */,
+				8AD71AA93FD0C3F0CDCCEFC4 /* pitch */,
+				7D4A48146CD96B77392ED217 /* spectral */,
+				0A3F8FB7B08F62C96E265D3B /* synth */,
+				CB678D780624078740D48DAD /* tempo */,
+				737666649395A40C69F14FF9 /* temporal */,
+				51FC5FE96346B4B3DF633181 /* types.h */,
+				19BA9AD7E40ADB4531322B8F /* utils */,
+				57A2DF3C11E2CFA840AFA2A0 /* vecutils.h */,
+			);
+			name = aubio;
+			sourceTree = "<group>";
+		};
+		36975FA566B2B8CF2179BD95 /* aubio */ = {
+			isa = PBXGroup;
+			children = (
+				8E356F97A45944B0E9B19B94 /* include */,
+			);
+			name = aubio;
+			sourceTree = "<group>";
+		};
+		37ADFE3B849369D95B1B1B4D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				36975FA566B2B8CF2179BD95 /* aubio */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		737666649395A40C69F14FF9 /* temporal */ = {
+			isa = PBXGroup;
+			children = (
+				8201BA1DC96F96AAFCC67625 /* a_weighting.h */,
+				39521A46CF429C0953B420F7 /* biquad.h */,
+				2044F74BD2D992DFB2F6E7DC /* c_weighting.h */,
+				31B09A89C80BEF9C5094DE13 /* filter.h */,
+				AF103CEE43428D4C8551ED36 /* resampler.h */,
+			);
+			name = temporal;
+			sourceTree = "<group>";
+		};
+		7D4A48146CD96B77392ED217 /* spectral */ = {
+			isa = PBXGroup;
+			children = (
+				26B1E3FC6B1F730AA88DA332 /* fft.h */,
+				1EBFBE0F709279753850E929 /* filterbank.h */,
+				BB415972695B855E7CFBD323 /* filterbank_mel.h */,
+				31E3C1217FF7680F696071BD /* mfcc.h */,
+				8D629A672A23B0BF4F3AAC55 /* phasevoc.h */,
+				844D8F5053E4B9197B72AC70 /* specdesc.h */,
+				8ED17A64D7F7169EA04FA9EA /* tss.h */,
+			);
+			name = spectral;
+			sourceTree = "<group>";
+		};
+		8AD71AA93FD0C3F0CDCCEFC4 /* pitch */ = {
+			isa = PBXGroup;
+			children = (
+				793064F45A89B8029D32194D /* pitch.h */,
+				F4FF502B29F2CC5AAA5C3B82 /* pitchfcomb.h */,
+				51C5E490D52815F7CDC14EE8 /* pitchmcomb.h */,
+				B0B6EF264BCB79B6783E4AA1 /* pitchschmitt.h */,
+				E58D0A498F190472ADA6C854 /* pitchspecacf.h */,
+				36B5DE60DF1AE153E2129A9E /* pitchyin.h */,
+				A894F34D53BC78B83158FDEE /* pitchyinfft.h */,
+			);
+			name = pitch;
+			sourceTree = "<group>";
+		};
+		8E356F97A45944B0E9B19B94 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2B3A895C2356C74199805CFD /* aubio */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		900713E21CE42B0700FD2388 /* libSndFile */ = {
+			isa = PBXGroup;
+			children = (
+				900713E31CE42B0700FD2388 /* scUBlibsndfile.a */,
+				900713E41CE42B0700FD2388 /* sndfile.h */,
+				900713E51CE42B0700FD2388 /* sndfile.hh */,
+			);
+			path = libSndFile;
+			sourceTree = "<group>";
+		};
+		900713E81CE432CD00FD2388 /* ofxTSNE */ = {
+			isa = PBXGroup;
+			children = (
+				900713E91CE432CD00FD2388 /* src */,
+			);
+			name = ofxTSNE;
+			sourceTree = "<group>";
+		};
+		900713E91CE432CD00FD2388 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				900713EA1CE432CD00FD2388 /* bhtsne */,
+				900713F01CE432CD00FD2388 /* ofxTSNE.cpp */,
+				900713F11CE432CD00FD2388 /* ofxTSNE.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxTSNE/src;
+			sourceTree = "<group>";
+		};
+		900713EA1CE432CD00FD2388 /* bhtsne */ = {
+			isa = PBXGroup;
+			children = (
+				900713EB1CE432CD00FD2388 /* sptree.cpp */,
+				900713EC1CE432CD00FD2388 /* sptree.h */,
+				900713ED1CE432CD00FD2388 /* tsne.cpp */,
+				900713EE1CE432CD00FD2388 /* tsne.h */,
+				900713EF1CE432CD00FD2388 /* vptree.h */,
+			);
+			path = bhtsne;
+			sourceTree = "<group>";
+		};
+		9007143D1CE7DB5E00FD2388 /* ofxOsc */ = {
+			isa = PBXGroup;
+			children = (
+				9007143E1CE7DB5E00FD2388 /* src */,
+				9007144B1CE7DB5E00FD2388 /* libs */,
+			);
+			name = ofxOsc;
+			sourceTree = "<group>";
+		};
+		9007143E1CE7DB5E00FD2388 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9007143F1CE7DB5E00FD2388 /* ofxOsc.h */,
+				900714401CE7DB5E00FD2388 /* ofxOscArg.h */,
+				900714411CE7DB5E00FD2388 /* ofxOscBundle.cpp */,
+				900714421CE7DB5E00FD2388 /* ofxOscBundle.h */,
+				900714431CE7DB5E00FD2388 /* ofxOscMessage.cpp */,
+				900714441CE7DB5E00FD2388 /* ofxOscMessage.h */,
+				900714451CE7DB5E00FD2388 /* ofxOscParameterSync.cpp */,
+				900714461CE7DB5E00FD2388 /* ofxOscParameterSync.h */,
+				900714471CE7DB5E00FD2388 /* ofxOscReceiver.cpp */,
+				900714481CE7DB5E00FD2388 /* ofxOscReceiver.h */,
+				900714491CE7DB5E00FD2388 /* ofxOscSender.cpp */,
+				9007144A1CE7DB5E00FD2388 /* ofxOscSender.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxOsc/src;
+			sourceTree = "<group>";
+		};
+		9007144B1CE7DB5E00FD2388 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				9007144C1CE7DB5E00FD2388 /* oscpack */,
+			);
+			name = libs;
+			path = ../../../addons/ofxOsc/libs;
+			sourceTree = "<group>";
+		};
+		9007144C1CE7DB5E00FD2388 /* oscpack */ = {
+			isa = PBXGroup;
+			children = (
+				9007144D1CE7DB5E00FD2388 /* src */,
+			);
+			path = oscpack;
+			sourceTree = "<group>";
+		};
+		9007144D1CE7DB5E00FD2388 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9007144E1CE7DB5E00FD2388 /* ip */,
+				9007145B1CE7DB5E00FD2388 /* osc */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9007144E1CE7DB5E00FD2388 /* ip */ = {
+			isa = PBXGroup;
+			children = (
+				9007144F1CE7DB5E00FD2388 /* IpEndpointName.cpp */,
+				900714501CE7DB5E00FD2388 /* IpEndpointName.h */,
+				900714511CE7DB5E00FD2388 /* NetworkingUtils.h */,
+				900714521CE7DB5E00FD2388 /* PacketListener.h */,
+				900714531CE7DB5E00FD2388 /* posix */,
+				900714561CE7DB5E00FD2388 /* TimerListener.h */,
+				900714571CE7DB5E00FD2388 /* UdpSocket.h */,
+			);
+			path = ip;
+			sourceTree = "<group>";
+		};
+		900714531CE7DB5E00FD2388 /* posix */ = {
+			isa = PBXGroup;
+			children = (
+				900714541CE7DB5E00FD2388 /* NetworkingUtils.cpp */,
+				900714551CE7DB5E00FD2388 /* UdpSocket.cpp */,
+			);
+			path = posix;
+			sourceTree = "<group>";
+		};
+		9007145B1CE7DB5E00FD2388 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				9007145C1CE7DB5E00FD2388 /* MessageMappingOscPacketListener.h */,
+				9007145D1CE7DB5E00FD2388 /* OscException.h */,
+				9007145E1CE7DB5E00FD2388 /* OscHostEndianness.h */,
+				9007145F1CE7DB5E00FD2388 /* OscOutboundPacketStream.cpp */,
+				900714601CE7DB5E00FD2388 /* OscOutboundPacketStream.h */,
+				900714611CE7DB5E00FD2388 /* OscPacketListener.h */,
+				900714621CE7DB5E00FD2388 /* OscPrintReceivedElements.cpp */,
+				900714631CE7DB5E00FD2388 /* OscPrintReceivedElements.h */,
+				900714641CE7DB5E00FD2388 /* OscReceivedElements.cpp */,
+				900714651CE7DB5E00FD2388 /* OscReceivedElements.h */,
+				900714661CE7DB5E00FD2388 /* OscTypes.cpp */,
+				900714671CE7DB5E00FD2388 /* OscTypes.h */,
+			);
+			path = osc;
+			sourceTree = "<group>";
+		};
+		9007147A1CED6C1700FD2388 /* ofxPostProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				9007147B1CED6C1700FD2388 /* src */,
+			);
+			name = ofxPostProcessing;
+			sourceTree = "<group>";
+		};
+		9007147B1CED6C1700FD2388 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9007147C1CED6C1800FD2388 /* BleachBypassPass.cpp */,
+				9007147D1CED6C1800FD2388 /* BleachBypassPass.h */,
+				9007147E1CED6C1800FD2388 /* BloomPass.cpp */,
+				9007147F1CED6C1800FD2388 /* BloomPass.h */,
+				900714801CED6C1800FD2388 /* ContrastPass.cpp */,
+				900714811CED6C1800FD2388 /* ContrastPass.h */,
+				900714821CED6C1800FD2388 /* ConvolutionPass.cpp */,
+				900714831CED6C1800FD2388 /* ConvolutionPass.h */,
+				900714841CED6C1800FD2388 /* DofAltPass.cpp */,
+				900714851CED6C1800FD2388 /* DofAltPass.h */,
+				900714861CED6C1800FD2388 /* DofPass.cpp */,
+				900714871CED6C1800FD2388 /* DofPass.h */,
+				900714881CED6C1800FD2388 /* EdgePass.cpp */,
+				900714891CED6C1800FD2388 /* EdgePass.h */,
+				9007148A1CED6C1800FD2388 /* FakeSSSPass.cpp */,
+				9007148B1CED6C1800FD2388 /* FakeSSSPass.h */,
+				9007148C1CED6C1800FD2388 /* FxaaPass.cpp */,
+				9007148D1CED6C1800FD2388 /* FxaaPass.h */,
+				9007148E1CED6C1800FD2388 /* GodRaysPass.cpp */,
+				9007148F1CED6C1800FD2388 /* GodRaysPass.h */,
+				900714901CED6C1800FD2388 /* HorizontalTiltShifPass.cpp */,
+				900714911CED6C1800FD2388 /* HorizontalTiltShifPass.h */,
+				900714921CED6C1800FD2388 /* HsbShiftPass.cpp */,
+				900714931CED6C1800FD2388 /* HsbShiftPass.h */,
+				900714941CED6C1800FD2388 /* KaleidoscopePass.cpp */,
+				900714951CED6C1800FD2388 /* KaleidoscopePass.h */,
+				900714961CED6C1800FD2388 /* LimbDarkeningPass.cpp */,
+				900714971CED6C1800FD2388 /* LimbDarkeningPass.h */,
+				900714981CED6C1800FD2388 /* LUTPass.cpp */,
+				900714991CED6C1800FD2388 /* LUTPass.h */,
+				9007149A1CED6C1800FD2388 /* NoiseWarpPass.cpp */,
+				9007149B1CED6C1800FD2388 /* NoiseWarpPass.h */,
+				9007149C1CED6C1800FD2388 /* ofxPostProcessing.h */,
+				9007149D1CED6C1800FD2388 /* PixelatePass.cpp */,
+				9007149E1CED6C1800FD2388 /* PixelatePass.h */,
+				9007149F1CED6C1800FD2388 /* PostProcessing.cpp */,
+				900714A01CED6C1800FD2388 /* PostProcessing.h */,
+				900714A11CED6C1800FD2388 /* RenderPass.cpp */,
+				900714A21CED6C1800FD2388 /* RenderPass.h */,
+				900714A31CED6C1800FD2388 /* RGBShiftPass.cpp */,
+				900714A41CED6C1800FD2388 /* RGBShiftPass.h */,
+				900714A51CED6C1800FD2388 /* RimHighlightingPass.cpp */,
+				900714A61CED6C1800FD2388 /* RimHighlightingPass.h */,
+				900714A71CED6C1800FD2388 /* SSAOPass.cpp */,
+				900714A81CED6C1800FD2388 /* SSAOPass.h */,
+				900714A91CED6C1800FD2388 /* ToonPass.cpp */,
+				900714AA1CED6C1800FD2388 /* ToonPass.h */,
+				900714AB1CED6C1800FD2388 /* VerticalTiltShifPass.cpp */,
+				900714AC1CED6C1800FD2388 /* VerticalTiltShifPass.h */,
+				900714AD1CED6C1800FD2388 /* ZoomBlurPass.cpp */,
+				900714AE1CED6C1800FD2388 /* ZoomBlurPass.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxPostProcessing/src;
+			sourceTree = "<group>";
+		};
+		96F08A80481AA5BE0AA8A378 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				DDCDBD31E1789BCE32A7DD09 /* sink.h */,
+				4F8AFF8D3FA91D932FEBB1C1 /* sink_apple_audio.h */,
+				02E6A30533ED6AE033A86D22 /* sink_sndfile.h */,
+				E09F22657CCD145439A09216 /* sndfileio.h */,
+				61A50196EE25BF5121ADEAEE /* source.h */,
+				908B13275B242F3EA5F76EEA /* source_apple_audio.h */,
+				681F7BC2FA4AFD4B4960D198 /* source_sndfile.h */,
+			);
+			name = io;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				0ABDFC5B77566FFAF1610B8A /* ofxAudioFeatures */,
+				900713E81CE432CD00FD2388 /* ofxTSNE */,
+				9007143D1CE7DB5E00FD2388 /* ofxOsc */,
+				9007147A1CED6C1700FD2388 /* ofxPostProcessing */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		CB678D780624078740D48DAD /* tempo */ = {
+			isa = PBXGroup;
+			children = (
+				B17863A56D338B85F51A0B00 /* beattracking.h */,
+				11624C3A46B624C1CFD76949 /* tempo.h */,
+			);
+			name = tempo;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* audioTSNEDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				900713E21CE42B0700FD2388 /* libSndFile */,
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* audioTSNE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "audioTSNE" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = audioTSNE;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* audioTSNEDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "audioTSNE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* audioTSNE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900714BF1CED6C1800FD2388 /* PixelatePass.cpp in Sources */,
+				900714C71CED6C1800FD2388 /* ZoomBlurPass.cpp in Sources */,
+				900714C21CED6C1800FD2388 /* RGBShiftPass.cpp in Sources */,
+				9007146F1CE7DB5E00FD2388 /* UdpSocket.cpp in Sources */,
+				900714681CE7DB5E00FD2388 /* ofxOscBundle.cpp in Sources */,
+				900714721CE7DB5E00FD2388 /* OscReceivedElements.cpp in Sources */,
+				900714C01CED6C1800FD2388 /* PostProcessing.cpp in Sources */,
+				900714B61CED6C1800FD2388 /* FakeSSSPass.cpp in Sources */,
+				900714C11CED6C1800FD2388 /* RenderPass.cpp in Sources */,
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				900714B41CED6C1800FD2388 /* DofPass.cpp in Sources */,
+				900714BB1CED6C1800FD2388 /* KaleidoscopePass.cpp in Sources */,
+				900714B11CED6C1800FD2388 /* ContrastPass.cpp in Sources */,
+				900714B01CED6C1800FD2388 /* BloomPass.cpp in Sources */,
+				9007146D1CE7DB5E00FD2388 /* IpEndpointName.cpp in Sources */,
+				9007146C1CE7DB5E00FD2388 /* ofxOscSender.cpp in Sources */,
+				900714711CE7DB5E00FD2388 /* OscPrintReceivedElements.cpp in Sources */,
+				900714B71CED6C1800FD2388 /* FxaaPass.cpp in Sources */,
+				900714731CE7DB5E00FD2388 /* OscTypes.cpp in Sources */,
+				9007146A1CE7DB5E00FD2388 /* ofxOscParameterSync.cpp in Sources */,
+				900714B21CED6C1800FD2388 /* ConvolutionPass.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				9007146E1CE7DB5E00FD2388 /* NetworkingUtils.cpp in Sources */,
+				900714691CE7DB5E00FD2388 /* ofxOscMessage.cpp in Sources */,
+				900714BD1CED6C1800FD2388 /* LUTPass.cpp in Sources */,
+				DB0886176363032DAB378E33 /* LICENSE in Sources */,
+				900714BA1CED6C1800FD2388 /* HsbShiftPass.cpp in Sources */,
+				900713F41CE432CD00FD2388 /* ofxTSNE.cpp in Sources */,
+				900714BC1CED6C1800FD2388 /* LimbDarkeningPass.cpp in Sources */,
+				9177F62ACD8B721065A083F0 /* ofxAudioDeviceControl.mm in Sources */,
+				900713F21CE432CD00FD2388 /* sptree.cpp in Sources */,
+				900714C31CED6C1800FD2388 /* RimHighlightingPass.cpp in Sources */,
+				38F9C64BAD4402CD15668A2C /* ofxAudioFeaturesChannel.cpp in Sources */,
+				9007146B1CE7DB5E00FD2388 /* ofxOscReceiver.cpp in Sources */,
+				900713F31CE432CD00FD2388 /* tsne.cpp in Sources */,
+				900714701CE7DB5E00FD2388 /* OscOutboundPacketStream.cpp in Sources */,
+				900714C51CED6C1800FD2388 /* ToonPass.cpp in Sources */,
+				900714B31CED6C1800FD2388 /* DofAltPass.cpp in Sources */,
+				900714AF1CED6C1800FD2388 /* BleachBypassPass.cpp in Sources */,
+				900714B81CED6C1800FD2388 /* GodRaysPass.cpp in Sources */,
+				900714C41CED6C1800FD2388 /* SSAOPass.cpp in Sources */,
+				900714BE1CED6C1800FD2388 /* NoiseWarpPass.cpp in Sources */,
+				900714C61CED6C1800FD2388 /* VerticalTiltShifPass.cpp in Sources */,
+				900714B51CED6C1800FD2388 /* EdgePass.cpp in Sources */,
+				900714B91CED6C1800FD2388 /* HorizontalTiltShifPass.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxAudioFeatures/libs,
+					../../../addons/ofxAudioFeatures/libs/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/onset,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/synth,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/tempo,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/utils,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx,
+					../../../addons/ofxAudioFeatures/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx/libaubio.a,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxAudioFeatures/libs,
+					../../../addons/ofxAudioFeatures/libs/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/onset,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/synth,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/tempo,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/utils,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx,
+					../../../addons/ofxAudioFeatures/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx/libaubio.a,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxAudioFeatures/libs,
+					../../../addons/ofxAudioFeatures/libs/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/onset,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/synth,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/tempo,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/utils,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx,
+					../../../addons/ofxAudioFeatures/src,
+					../../../addons/ofxOsc/src,
+					../../../addons/ofxOsc/libs/oscpack/src/osc,
+					../../../addons/ofxOsc/libs/oscpack/src/ip/win32,
+					../../../addons/ofxOsc/libs/oscpack/src/ip/posix,
+					../../../addons/ofxOsc/libs/oscpack/src/ip,
+					../../../addons/ofxOsc/libs/oscpack/src,
+					../../../addons/ofxOsc/libs/oscpack,
+					../../../addons/ofxOsc/libs/,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/src/libSndFile",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx/libaubio.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxAudioFeatures/libs,
+					../../../addons/ofxAudioFeatures/libs/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/onset,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/spectral,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/synth,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/tempo,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/temporal,
+					../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/utils,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib,
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx,
+					../../../addons/ofxAudioFeatures/src,
+					../../../addons/ofxOsc/src,
+					../../../addons/ofxOsc/libs/oscpack/src/osc,
+					../../../addons/ofxOsc/libs/oscpack/src/ip/win32,
+					../../../addons/ofxOsc/libs/oscpack/src/ip/posix,
+					../../../addons/ofxOsc/libs/oscpack/src/ip,
+					../../../addons/ofxOsc/libs/oscpack/src,
+					../../../addons/ofxOsc/libs/oscpack,
+					../../../addons/ofxOsc/libs/,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/src/libSndFile",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxAudioFeatures/libs/aubio/lib/osx/libaubio.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "audioTSNE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "audioTSNE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
