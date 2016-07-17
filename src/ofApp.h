@@ -6,6 +6,7 @@
 #include "ofxTSNE.h"
 #include "ofxOsc.h"
 #include "ofxPostProcessing.h"
+#include "ofxGui.h"
 
 #define PORT 12345
 
@@ -18,11 +19,13 @@ public:
     
     //load/save funcs
     void loadSamplesAndRunTSNE();
+    void loadSamplesAndBuildGUI();
     void loadSamples(string path, ofColor color);
     void loadAudioToData(string fileName, vector < float > & audioSamples);
-    void saveTSNE(string path);
-    void loadTSNE(string path);
-    
+    void saveTSNE();
+    void loadTSNE();
+//    void saveTSNE(string path);
+//    void loadTSNE(string path);
     //update/event funcs
     void checkBounds();
     void calcBoundingBox();
@@ -95,5 +98,15 @@ public:
    //3d...
     ofEasyCam cam;
     ofSpherePrimitive sphere;
+    
+    
+    //gui
+    ofxPanel gui;
+    ofxButton loadSamplesButton;
+    ofxButton loadSettingsButton;
+    ofxButton saveSettingsButton;
+    bool showGui;
+    
+    
     
 };

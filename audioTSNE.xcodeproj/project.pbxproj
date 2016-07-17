@@ -49,6 +49,14 @@
 		900714C51CED6C1800FD2388 /* ToonPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714A91CED6C1800FD2388 /* ToonPass.cpp */; };
 		900714C61CED6C1800FD2388 /* VerticalTiltShifPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714AB1CED6C1800FD2388 /* VerticalTiltShifPass.cpp */; };
 		900714C71CED6C1800FD2388 /* ZoomBlurPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 900714AD1CED6C1800FD2388 /* ZoomBlurPass.cpp */; };
+		909007041D389D5E00DD1443 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909006F31D389D5E00DD1443 /* ofxBaseGui.cpp */; };
+		909007051D389D5E00DD1443 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909006F51D389D5E00DD1443 /* ofxButton.cpp */; };
+		909007061D389D5E00DD1443 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909006F81D389D5E00DD1443 /* ofxGuiGroup.cpp */; };
+		909007071D389D5E00DD1443 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909006FA1D389D5E00DD1443 /* ofxLabel.cpp */; };
+		909007081D389D5E00DD1443 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909006FC1D389D5E00DD1443 /* ofxPanel.cpp */; };
+		909007091D389D5E00DD1443 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909006FE1D389D5E00DD1443 /* ofxSlider.cpp */; };
+		9090070A1D389D5E00DD1443 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909007001D389D5E00DD1443 /* ofxSliderGroup.cpp */; };
+		9090070B1D389D5E00DD1443 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 909007021D389D5E00DD1443 /* ofxToggle.cpp */; };
 		9177F62ACD8B721065A083F0 /* ofxAudioDeviceControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE197401A06411E94419EE79 /* ofxAudioDeviceControl.mm */; };
 		DB0886176363032DAB378E33 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 5565F17457B99E20477BB488 /* LICENSE */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -213,6 +221,23 @@
 		900714AD1CED6C1800FD2388 /* ZoomBlurPass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZoomBlurPass.cpp; sourceTree = "<group>"; };
 		900714AE1CED6C1800FD2388 /* ZoomBlurPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomBlurPass.h; sourceTree = "<group>"; };
 		908B13275B242F3EA5F76EEA /* source_apple_audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = source_apple_audio.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/io/source_apple_audio.h; sourceTree = SOURCE_ROOT; };
+		909006F31D389D5E00DD1443 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
+		909006F41D389D5E00DD1443 /* ofxBaseGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
+		909006F51D389D5E00DD1443 /* ofxButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
+		909006F61D389D5E00DD1443 /* ofxButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxButton.h; sourceTree = "<group>"; };
+		909006F71D389D5E00DD1443 /* ofxGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGui.h; sourceTree = "<group>"; };
+		909006F81D389D5E00DD1443 /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGuiGroup.cpp; sourceTree = "<group>"; };
+		909006F91D389D5E00DD1443 /* ofxGuiGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGuiGroup.h; sourceTree = "<group>"; };
+		909006FA1D389D5E00DD1443 /* ofxLabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxLabel.cpp; sourceTree = "<group>"; };
+		909006FB1D389D5E00DD1443 /* ofxLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxLabel.h; sourceTree = "<group>"; };
+		909006FC1D389D5E00DD1443 /* ofxPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxPanel.cpp; sourceTree = "<group>"; };
+		909006FD1D389D5E00DD1443 /* ofxPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPanel.h; sourceTree = "<group>"; };
+		909006FE1D389D5E00DD1443 /* ofxSlider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlider.cpp; sourceTree = "<group>"; };
+		909006FF1D389D5E00DD1443 /* ofxSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSlider.h; sourceTree = "<group>"; };
+		909007001D389D5E00DD1443 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSliderGroup.cpp; sourceTree = "<group>"; };
+		909007011D389D5E00DD1443 /* ofxSliderGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
+		909007021D389D5E00DD1443 /* ofxToggle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
+		909007031D389D5E00DD1443 /* ofxToggle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
 		91821B92C0988056EC2F9256 /* ofxAudioFeaturesChannel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAudioFeaturesChannel.cpp; path = ../../../addons/ofxAudioFeatures/src/ofxAudioFeaturesChannel.cpp; sourceTree = SOURCE_ROOT; };
 		A894F34D53BC78B83158FDEE /* pitchyinfft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pitchyinfft.h; path = ../../../addons/ofxAudioFeatures/libs/aubio/include/aubio/pitch/pitchyinfft.h; sourceTree = SOURCE_ROOT; };
 		AE197401A06411E94419EE79 /* ofxAudioDeviceControl.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxAudioDeviceControl.mm; path = ../../../addons/ofxAudioFeatures/src/ofxAudioDeviceControl.mm; sourceTree = SOURCE_ROOT; };
@@ -596,6 +621,39 @@
 			path = ../../../addons/ofxPostProcessing/src;
 			sourceTree = "<group>";
 		};
+		909006F11D389D5E00DD1443 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				909006F21D389D5E00DD1443 /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		909006F21D389D5E00DD1443 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				909006F31D389D5E00DD1443 /* ofxBaseGui.cpp */,
+				909006F41D389D5E00DD1443 /* ofxBaseGui.h */,
+				909006F51D389D5E00DD1443 /* ofxButton.cpp */,
+				909006F61D389D5E00DD1443 /* ofxButton.h */,
+				909006F71D389D5E00DD1443 /* ofxGui.h */,
+				909006F81D389D5E00DD1443 /* ofxGuiGroup.cpp */,
+				909006F91D389D5E00DD1443 /* ofxGuiGroup.h */,
+				909006FA1D389D5E00DD1443 /* ofxLabel.cpp */,
+				909006FB1D389D5E00DD1443 /* ofxLabel.h */,
+				909006FC1D389D5E00DD1443 /* ofxPanel.cpp */,
+				909006FD1D389D5E00DD1443 /* ofxPanel.h */,
+				909006FE1D389D5E00DD1443 /* ofxSlider.cpp */,
+				909006FF1D389D5E00DD1443 /* ofxSlider.h */,
+				909007001D389D5E00DD1443 /* ofxSliderGroup.cpp */,
+				909007011D389D5E00DD1443 /* ofxSliderGroup.h */,
+				909007021D389D5E00DD1443 /* ofxToggle.cpp */,
+				909007031D389D5E00DD1443 /* ofxToggle.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxGui/src;
+			sourceTree = "<group>";
+		};
 		96F08A80481AA5BE0AA8A378 /* io */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,6 +675,7 @@
 				900713E81CE432CD00FD2388 /* ofxTSNE */,
 				9007143D1CE7DB5E00FD2388 /* ofxOsc */,
 				9007147A1CED6C1700FD2388 /* ofxPostProcessing */,
+				909006F11D389D5E00DD1443 /* ofxGui */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -771,13 +830,16 @@
 				900714B41CED6C1800FD2388 /* DofPass.cpp in Sources */,
 				900714BB1CED6C1800FD2388 /* KaleidoscopePass.cpp in Sources */,
 				900714B11CED6C1800FD2388 /* ContrastPass.cpp in Sources */,
+				909007091D389D5E00DD1443 /* ofxSlider.cpp in Sources */,
 				900714B01CED6C1800FD2388 /* BloomPass.cpp in Sources */,
 				9007146D1CE7DB5E00FD2388 /* IpEndpointName.cpp in Sources */,
+				9090070A1D389D5E00DD1443 /* ofxSliderGroup.cpp in Sources */,
 				9007146C1CE7DB5E00FD2388 /* ofxOscSender.cpp in Sources */,
 				900714711CE7DB5E00FD2388 /* OscPrintReceivedElements.cpp in Sources */,
 				900714B71CED6C1800FD2388 /* FxaaPass.cpp in Sources */,
 				900714731CE7DB5E00FD2388 /* OscTypes.cpp in Sources */,
 				9007146A1CE7DB5E00FD2388 /* ofxOscParameterSync.cpp in Sources */,
+				909007041D389D5E00DD1443 /* ofxBaseGui.cpp in Sources */,
 				900714B21CED6C1800FD2388 /* ConvolutionPass.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				9007146E1CE7DB5E00FD2388 /* NetworkingUtils.cpp in Sources */,
@@ -788,20 +850,25 @@
 				900713F41CE432CD00FD2388 /* ofxTSNE.cpp in Sources */,
 				900714BC1CED6C1800FD2388 /* LimbDarkeningPass.cpp in Sources */,
 				9177F62ACD8B721065A083F0 /* ofxAudioDeviceControl.mm in Sources */,
+				909007061D389D5E00DD1443 /* ofxGuiGroup.cpp in Sources */,
 				900713F21CE432CD00FD2388 /* sptree.cpp in Sources */,
 				900714C31CED6C1800FD2388 /* RimHighlightingPass.cpp in Sources */,
+				9090070B1D389D5E00DD1443 /* ofxToggle.cpp in Sources */,
 				38F9C64BAD4402CD15668A2C /* ofxAudioFeaturesChannel.cpp in Sources */,
 				9007146B1CE7DB5E00FD2388 /* ofxOscReceiver.cpp in Sources */,
 				900713F31CE432CD00FD2388 /* tsne.cpp in Sources */,
 				900714701CE7DB5E00FD2388 /* OscOutboundPacketStream.cpp in Sources */,
 				900714C51CED6C1800FD2388 /* ToonPass.cpp in Sources */,
+				909007051D389D5E00DD1443 /* ofxButton.cpp in Sources */,
 				900714B31CED6C1800FD2388 /* DofAltPass.cpp in Sources */,
 				900714AF1CED6C1800FD2388 /* BleachBypassPass.cpp in Sources */,
 				900714B81CED6C1800FD2388 /* GodRaysPass.cpp in Sources */,
 				900714C41CED6C1800FD2388 /* SSAOPass.cpp in Sources */,
 				900714BE1CED6C1800FD2388 /* NoiseWarpPass.cpp in Sources */,
 				900714C61CED6C1800FD2388 /* VerticalTiltShifPass.cpp in Sources */,
+				909007071D389D5E00DD1443 /* ofxLabel.cpp in Sources */,
 				900714B51CED6C1800FD2388 /* EdgePass.cpp in Sources */,
+				909007081D389D5E00DD1443 /* ofxPanel.cpp in Sources */,
 				900714B91CED6C1800FD2388 /* HorizontalTiltShifPass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

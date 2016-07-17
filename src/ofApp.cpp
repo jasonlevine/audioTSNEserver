@@ -14,7 +14,9 @@ void ofApp::setup(){
     currentBox.set(0, 0, ofGetWidth(), ofGetHeight());
     zoomToPoints = true;
     
-    loadSamplesAndRunTSNE();
+    
+//    loadSamplesAndBuildGUI();
+//    loadSamplesAndRunTSNE();
 //    loadTSNE("settings.xml");
     receiver.setup(PORT);
     
@@ -22,12 +24,23 @@ void ofApp::setup(){
     star.load("dot.png");
     post.init(ofGetWidth(), ofGetHeight());
     post.createPass<BloomPass>()->setEnabled(true);
-    post.createPass<RimHighlightingPass>()->setEnabled(true);
+//    post.createPass<RimHighlightingPass>()->setEnabled(true);
     post.createPass<BloomPass>()->setEnabled(true);
     post.createPass<BloomPass>()->setEnabled(true);
     
     cam.setDistance(500);
     sphere.set(15, 20);
+    
+    ///gui
+    loadSamplesButton.addListener(this, &ofApp::loadSamplesAndRunTSNE);
+    loadSettingsButton.addListener(this, &ofApp::loadTSNE);
+    saveSettingsButton.addListener(this, &ofApp::saveTSNE);
+   
+    gui.setup();
+    gui.add(loadSamplesButton.setup("Load samples and run t-SNE"));
+    gui.add(loadSettingsButton.setup("Load Settings"));
+    gui.add(saveSettingsButton.setup("Save Settings"));
+    showGui = true;
 }
 
 
@@ -90,67 +103,25 @@ void ofApp::draw(){
     
     endzoom();
     post.end();
+    
+    if (showGui) gui.draw();
 }
 
 #pragma mark LOAD
-
 //--------------------------------------------------------------
 void ofApp::loadSamplesAndRunTSNE(){
-   //    loadSamples("OH", ofColor::red);
+    sampler.clear();
+    tsnePoints.clear();
+    data.clear();
+    testPoints.clear();
     
+    ofDirectory samplesDir;
+    samplesDir.listDir("samples");
+   
     vector<string> samplelibs;
-    
-    samplelibs.push_back("biolabsDubstepKit3");
-    samplelibs.push_back("medieval-perc");
-    samplelibs.push_back("Dirty");
-    samplelibs.push_back("analog-drum-kit");
-    samplelibs.push_back("nord-kit");
-    samplelibs.push_back("Djembe");
-    samplelibs.push_back("Djembe2");
-    samplelibs.push_back("Dun Dun & Conga");
-    samplelibs.push_back("Conga");
-    samplelibs.push_back("Darbuka");
-    samplelibs.push_back("Framedrum");
-    samplelibs.push_back("RIQ");
-    samplelibs.push_back("SteamKit");
-    samplelibs.push_back("Seaweed Glitch FX");
-//    samplelibs.push_back("Micronesia");
-    samplelibs.push_back("MetalKit");
-    samplelibs.push_back("IndustrialKit");
-    samplelibs.push_back("HipHopKit");
-    samplelibs.push_back("Dubstep Drum Set");
-    samplelibs.push_back("cinematic hits");
-    samplelibs.push_back("CavedrumKit");
-    samplelibs.push_back("C-Bowl");
-    samplelibs.push_back("BreakbeatKit");
-    samplelibs.push_back("DirtyKicks");
-    samplelibs.push_back("LayeredSnares");
-    samplelibs.push_back("OneShotPercussionTools");
-    samplelibs.push_back("DirtyHats");
-    samplelibs.push_back("SuperFatSnares");
-    
-    
-    for (int i = 1; i <= 7; i++) {
-        samplelibs.push_back("dnb/Kit_" + ofToString(i));
+    for (int i = 0; i < samplesDir.size(); i++) {
+        samplelibs.push_back(samplesDir.getName(i));
     }
-    
-    samplelibs.push_back("Marimba.cord.ff.stereo");
-//    samplelibs.push_back("Marimba.yarn.ff.stereo");
-//    samplelibs.push_back("Marimba.deadstroke.ff.stereo");
-//    samplelibs.push_back("Marimba.roll.ff.stereo");
-    
-    samplelibs.push_back("Vibraphone.bow.stereo");
-    samplelibs.push_back("Vibraphone.dampen.ff.stereo");
-    samplelibs.push_back("Vibraphone.shortsustain.ff.stereo");
-    samplelibs.push_back("Vibraphone.sustain.ff.stereo");
-    
-    samplelibs.push_back("Xylophone.hardrubber.ff.stereo");
-//    samplelibs.push_back("Xylophone.hardrubber.roll.ff.stereo");
-    samplelibs.push_back("Xylophone.rosewood.ff.stereo");
-//    samplelibs.push_back("Xylophone.rosewood.roll.ff.stereo");
-    
-//    samplelibs.push_back("DanElectro-Plectrum-4RR");
-//    samplelibs.push_back("piano");
     
     float hueInc = 255. / samplelibs.size();
     
@@ -173,8 +144,91 @@ void ofApp::loadSamplesAndRunTSNE(){
             testPoints[i].tsnePoint = ofPoint(tsnePoints[i][0], tsnePoints[i][1]);
         }
     }
- 
+
 }
+
+
+//--------------------------------------------------------------
+//void ofApp::loadSamplesAndRunTSNE(){
+//   //    loadSamples("OH", ofColor::red);
+//    
+//    vector<string> samplelibs;
+//    
+//    samplelibs.push_back("biolabsDubstepKit3");
+//    samplelibs.push_back("medieval-perc");
+//    samplelibs.push_back("Dirty");
+//    samplelibs.push_back("analog-drum-kit");
+//    samplelibs.push_back("nord-kit");
+//    samplelibs.push_back("Djembe");
+//    samplelibs.push_back("Djembe2");
+//    samplelibs.push_back("Dun Dun & Conga");
+//    samplelibs.push_back("Conga");
+//    samplelibs.push_back("Darbuka");
+//    samplelibs.push_back("Framedrum");
+//    samplelibs.push_back("RIQ");
+//    samplelibs.push_back("SteamKit");
+//    samplelibs.push_back("Seaweed Glitch FX");
+////    samplelibs.push_back("Micronesia");
+//    samplelibs.push_back("MetalKit");
+//    samplelibs.push_back("IndustrialKit");
+//    samplelibs.push_back("HipHopKit");
+//    samplelibs.push_back("Dubstep Drum Set");
+//    samplelibs.push_back("cinematic hits");
+//    samplelibs.push_back("CavedrumKit");
+//    samplelibs.push_back("C-Bowl");
+//    samplelibs.push_back("BreakbeatKit");
+//    samplelibs.push_back("DirtyKicks");
+//    samplelibs.push_back("LayeredSnares");
+//    samplelibs.push_back("OneShotPercussionTools");
+//    samplelibs.push_back("DirtyHats");
+//    samplelibs.push_back("SuperFatSnares");
+//    
+//    
+//    for (int i = 1; i <= 7; i++) {
+//        samplelibs.push_back("dnb/Kit_" + ofToString(i));
+//    }
+//    
+//    samplelibs.push_back("Marimba.cord.ff.stereo");
+////    samplelibs.push_back("Marimba.yarn.ff.stereo");
+////    samplelibs.push_back("Marimba.deadstroke.ff.stereo");
+////    samplelibs.push_back("Marimba.roll.ff.stereo");
+//    
+//    samplelibs.push_back("Vibraphone.bow.stereo");
+//    samplelibs.push_back("Vibraphone.dampen.ff.stereo");
+//    samplelibs.push_back("Vibraphone.shortsustain.ff.stereo");
+//    samplelibs.push_back("Vibraphone.sustain.ff.stereo");
+//    
+//    samplelibs.push_back("Xylophone.hardrubber.ff.stereo");
+////    samplelibs.push_back("Xylophone.hardrubber.roll.ff.stereo");
+//    samplelibs.push_back("Xylophone.rosewood.ff.stereo");
+////    samplelibs.push_back("Xylophone.rosewood.roll.ff.stereo");
+//    
+////    samplelibs.push_back("DanElectro-Plectrum-4RR");
+////    samplelibs.push_back("piano");
+//    
+//    float hueInc = 255. / samplelibs.size();
+//    
+//    for (int i = 0; i < samplelibs.size(); i++) {
+//        loadSamples(samplelibs[i], ofColor::fromHsb(hueInc * i, 180, 255));
+//    }
+//    
+//    //setup TSNE vars
+//    int dims = 2;
+//    float perplexity = 40;
+//    float theta = 0.2;
+//    bool normalize = true;
+//    runManually = true;
+//    
+//    tsnePoints = tsne.run(data, dims, perplexity, theta, normalize, runManually);
+//    
+//    // if we didn't run manually, we can collect the points immediately
+//    if (!runManually) {
+//        for (int i=0; i<testPoints.size(); i++) {
+//            testPoints[i].tsnePoint = ofPoint(tsnePoints[i][0], tsnePoints[i][1]);
+//        }
+//    }
+// 
+//}
 
 //--------------------------------------------------------------
 void ofApp::loadSamples(string path, ofColor color){
@@ -274,114 +328,142 @@ void ofApp::loadAudioToData(string fileName, vector < float > & audioSamples){
 //TODO: bering in scalable point selction code. fix algo
 //--------------------------------------------------------------
 void ofApp::playTSNE(float x, float y, int numNearPts){
-    
-    ofPoint pos(x / ofGetWidth(), y / ofGetHeight());
-    vector<float> minDist;
-    minDist.assign(numNearPts, INFINITY);
-    vector<int> closest;
-    closest.assign(numNearPts, -1);
-    vector<float> vol;
-    vol.assign(numNearPts, 0.0);
-    
-    selectedPoints.clear();
-    for (int i = 0; i < testPoints.size(); i++) {
-        float dist = pos.squareDistance(testPoints[i].tsnePoint);
-        int flag = -1;
-        //for every potential closest point
-        for (int j = closest.size()-1; j >= 0; j--) {
-            
-            // check if the distance is less than the current minimum. flag the point.
-            if (dist < minDist[j]) {
-                flag = j;
-            }
-        }
+    if (testPoints.size() > 0){
+        ofPoint pos(x / ofGetWidth(), y / ofGetHeight());
+        vector<float> minDist;
+        minDist.assign(numNearPts, INFINITY);
+        vector<int> closest;
+        closest.assign(numNearPts, -1);
+        vector<float> vol;
+        vol.assign(numNearPts, 0.0);
         
-        if (flag != -1){
-            //if so "trickle down" the current values from furthest point to current point
-            for (int k = closest.size()-1; k > flag; k--) {
-                //                    minDist[k] = minDist[k-1];
-                //                    closest[k] = closest[k-1];
-                iter_swap(minDist.begin() + k, minDist.begin() + k-1);
-                iter_swap(closest.begin() + k, closest.begin() + k-1);
-                //                    cout << "-------" << endl;
+        selectedPoints.clear();
+        for (int i = 0; i < testPoints.size(); i++) {
+            float dist = pos.squareDistance(testPoints[i].tsnePoint);
+            int flag = -1;
+            //for every potential closest point
+            for (int j = closest.size()-1; j >= 0; j--) {
+                
+                // check if the distance is less than the current minimum. flag the point.
+                if (dist < minDist[j]) {
+                    flag = j;
+                }
             }
             
-            minDist[flag] = dist;
-            closest[flag] = i;
+            if (flag != -1){
+                //if so "trickle down" the current values from furthest point to current point
+                for (int k = closest.size()-1; k > flag; k--) {
+                    //                    minDist[k] = minDist[k-1];
+                    //                    closest[k] = closest[k-1];
+                    iter_swap(minDist.begin() + k, minDist.begin() + k-1);
+                    iter_swap(closest.begin() + k, closest.begin() + k-1);
+                    //                    cout << "-------" << endl;
+                }
+                
+                minDist[flag] = dist;
+                closest[flag] = i;
+            }
+            
+            
+        }
+        
+        //calc sum of distances
+        float sumDists = 0.;
+        for (int i = 0; i < minDist.size(); i++) {
+            sumDists += sqrt(minDist[i]);
+        }
+        
+        //calc vol and play sound
+        for (int i = 0; i < minDist.size(); i++) {
+            float vol = sqrt(minDist[i]) / sumDists;
+            testPoints[closest[i]].player.setVolume(vol * 0.5);
+            testPoints[closest[i]].player.play();
         }
         
         
-    }
-    
-    //calc sum of distances
-    float sumDists = 0.;
-    for (int i = 0; i < minDist.size(); i++) {
-        sumDists += sqrt(minDist[i]);
-    }
-    
-    //calc vol and play sound
-    for (int i = 0; i < minDist.size(); i++) {
-        float vol = sqrt(minDist[i]) / sumDists;
-        testPoints[closest[i]].player.setVolume(vol * 0.5);
-        testPoints[closest[i]].player.play();
-    }
-    
-    
-    //add points
-    for (int i = 0; i < closest.size(); i++) {
-        selectedPoints.push_back(testPoints[closest[i]].tsnePoint * ofPoint(ofGetWidth(), ofGetHeight()));
+        //add points
+        for (int i = 0; i < closest.size(); i++) {
+            selectedPoints.push_back(testPoints[closest[i]].tsnePoint * ofPoint(ofGetWidth(), ofGetHeight()));
+            
+            playPoints.push_back(pos * ofPoint(ofGetWidth(), ofGetHeight()));
+        }
         
-        playPoints.push_back(pos * ofPoint(ofGetWidth(), ofGetHeight()));
+        
+        calcBoundingBox();
     }
-    
-    
-    calcBoundingBox();
 }
 
  //--------------------------------------------------------------
-void ofApp::saveTSNE(string path){
-    ofXml settings;
-    settings.addChild("TSNE");
-    settings.setTo("TSNE");
+void ofApp::saveTSNE(){
+    //Open the Open File Dialog
+    ofFileDialogResult openFileResult= ofSystemSaveDialog("settings", "Save your t-SNE!");
     
-    for (int i = 0; i < testPoints.size(); i++) {
-        ofXml testPoint;
-        testPoint.addChild("testPoint");
-        testPoint.setTo("testPoint");
-        testPoint.addValue("path", testPoints[i].path);
-        testPoint.addValue("color", testPoints[i].color);
-        testPoint.addValue("x", testPoints[i].tsnePoint.x);
-        testPoint.addValue("y", testPoints[i].tsnePoint.y);
-        settings.addXml(testPoint);
+    //Check if the user opened a file
+    if (openFileResult.bSuccess){
+        
+        ofLogVerbose("User selected a file");
+        
+        ofXml settings;
+        settings.addChild("TSNE");
+        settings.setTo("TSNE");
+        
+        for (int i = 0; i < testPoints.size(); i++) {
+            ofXml testPoint;
+            testPoint.addChild("testPoint");
+            testPoint.setTo("testPoint");
+            testPoint.addValue("path", testPoints[i].path);
+            testPoint.addValue("color", testPoints[i].color);
+            testPoint.addValue("x", testPoints[i].tsnePoint.x);
+            testPoint.addValue("y", testPoints[i].tsnePoint.y);
+            settings.addXml(testPoint);
+        }
+        
+        string path = openFileResult.getName();
+        settings.save("settings/" + path + ".xml");
+        
+    }else {
+        ofLogVerbose("User hit cancel");
     }
     
-    settings.save(path + ".xml");
+    
 }
 
 //--------------------------------------------------------------
-void ofApp::loadTSNE(string path){
-    ofXml settings;
-    settings.load("settings.xml");
+void ofApp::loadTSNE(){
+    //Open the Open File Dialog
+    ofFileDialogResult openFileResult= ofSystemLoadDialog("Load a t-SNE!");
     
-    settings.setTo("TSNE");
-    settings.setTo("testPoint[0]");
-    
-    
-    do {
-        if(settings.getName() == "testPoint")
-        {
-            TestPoint testPoint;
-            testPoint.path = settings.getValue<string>("path");
-            testPoint.player.load(testPoint.path);
-            testPoint.color = settings.getValue<ofColor>("color");
-            testPoint.tsnePoint.x = settings.getValue<float>("x");
-            testPoint.tsnePoint.y = settings.getValue<float>("y");
-            testPoints.push_back(testPoint);
-            cout << "loaded " << testPoint.path << endl;
-        }
+    //Check if the user opened a file
+    if (openFileResult.bSuccess){
         
+        sampler.clear();
+        tsnePoints.clear();
+        data.clear();
+        testPoints.clear();
+    
+        ofXml settings;
+        settings.load(openFileResult.getPath());
+        
+        settings.setTo("TSNE");
+        settings.setTo("testPoint[0]");
+        
+        
+        do {
+            if(settings.getName() == "testPoint")
+            {
+                TestPoint testPoint;
+                testPoint.path = settings.getValue<string>("path");
+                testPoint.player.load(testPoint.path);
+                testPoint.color = settings.getValue<ofColor>("color");
+                testPoint.tsnePoint.x = settings.getValue<float>("x");
+                testPoint.tsnePoint.y = settings.getValue<float>("y");
+                testPoints.push_back(testPoint);
+                cout << "loaded " << testPoint.path << endl;
+            }
+            
+        }
+        while( settings.setToSibling() );
     }
-    while( settings.setToSibling() );
 }
 
 
@@ -550,9 +632,11 @@ void ofApp::drawPastPoints(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    if (key == 's') saveTSNE("settings");
+    if (key == 's') saveTSNE();
     
     if (key == 'z') zoomToPoints ^= true;
+    
+    if (key == 'g') showGui ^= true;
 }
 
 //--------------------------------------------------------------
@@ -573,6 +657,7 @@ void ofApp::mouseDragged(int x, int y, int button){
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
     playTSNE(x, y, 1);
+    
 //    ofPoint normPt;
 //    normPt.x = (float)x / ofGetWidth();
 //    normPt.y = (float)y / ofGetHeight();
