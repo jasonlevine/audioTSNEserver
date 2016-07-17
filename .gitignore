@@ -136,5 +136,5 @@ Desktop.ini
 *.mp3
 *.sfz
 
-bin/data/samples/*.*
-bin/data/settings/*.*
+bin/data/samples/*
+bin/data/settings/*
