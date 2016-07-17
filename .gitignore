@@ -132,7 +132,9 @@ Desktop.ini
 
 *.wav
 *.aiff
+*.aif
 *.mp3
+*.sfz
 
 bin/data/samples/*.*
 bin/data/settings/*.*
