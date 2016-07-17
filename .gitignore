@@ -134,4 +134,5 @@ Desktop.ini
 *.aiff
 *.mp3
 
-bin/data/samples
+bin/data/samples/*.*
+bin/data/settings/*.*

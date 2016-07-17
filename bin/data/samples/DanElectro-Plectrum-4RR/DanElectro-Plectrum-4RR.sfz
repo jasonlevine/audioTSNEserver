@@ -1,0 +1,111 @@
+/////////////////////////////////////////////////////////////////////////////
+// sfz definition file
+// copyright Chicken Systems, Inc.
+// -------------------------------------------------------------------------
+// Application: Translator 5.9, Build 102
+// Vendor: 
+
+
+<group>name=RR1 seq_length=4 seq_position=1 bendup=200 benddown=200 pitchlfo_freq=4.8 pitchlfo_depth=0 amp_veltrack=39.370079 ampeg_release=0.108 
+
+<region>sample=DanElectro-Plect-RR1-E1.wav lokey=0 hikey=41 end=378676 pitch_keycenter=40 
+<region>sample=DanElectro-Plect-RR1-F#1.wav lokey=42 hikey=43 end=239461 pitch_keycenter=42 
+<region>sample=DanElectro-Plect-RR1-G#1.wav lokey=44 hikey=45 end=279515 pitch_keycenter=44 
+<region>sample=DanElectro-Plect-RR1-A#1.wav lokey=46 hikey=47 end=297540 pitch_keycenter=46 
+<region>sample=DanElectro-Plect-RR1-C2.wav lokey=48 hikey=49 end=331027 pitch_keycenter=48 
+<region>sample=DanElectro-Plect-RR1-D2.wav lokey=50 hikey=51 end=315158 pitch_keycenter=50 
+<region>sample=DanElectro-Plect-RR1-E2.wav lokey=52 hikey=53 end=323623 pitch_keycenter=52 
+<region>sample=DanElectro-Plect-RR1-F#2.wav lokey=54 hikey=55 end=276071 pitch_keycenter=54 
+<region>sample=DanElectro-Plect-RR1-G#2.wav lokey=56 hikey=57 end=240437 pitch_keycenter=56 
+<region>sample=DanElectro-Plect-RR1-A#2.wav lokey=58 hikey=59 end=167711 pitch_keycenter=58 
+<region>sample=DanElectro-Plect-RR1-C3.wav lokey=60 hikey=61 end=204396 pitch_keycenter=60 
+<region>sample=DanElectro-Plect-RR1-D3.wav lokey=62 hikey=63 end=159646 pitch_keycenter=62 
+<region>sample=DanElectro-Plect-RR1-E3.wav lokey=64 hikey=65 end=216862 pitch_keycenter=64 
+<region>sample=DanElectro-Plect-RR1-F#3.wav lokey=66 hikey=67 end=198646 pitch_keycenter=66 
+<region>sample=DanElectro-Plect-RR1-G#3.wav lokey=68 hikey=69 end=166697 pitch_keycenter=68 
+<region>sample=DanElectro-Plect-RR1-A#3.wav lokey=70 hikey=71 end=146921 pitch_keycenter=70 
+<region>sample=DanElectro-Plect-RR1-C4.wav lokey=72 hikey=73 end=193382 pitch_keycenter=72 
+<region>sample=DanElectro-Plect-RR1-D4.wav lokey=74 hikey=75 end=149504 pitch_keycenter=74 
+<region>sample=DanElectro-Plect-RR1-E4.wav lokey=76 hikey=77 end=161975 pitch_keycenter=76 
+<region>sample=DanElectro-Plect-RR1-F#4.wav lokey=78 hikey=79 end=88426 pitch_keycenter=78 
+<region>sample=DanElectro-Plect-RR1-G#4.wav lokey=80 hikey=81 end=109818 pitch_keycenter=80 
+<region>sample=DanElectro-Plect-RR1-A#4.wav lokey=82 hikey=83 end=85411 pitch_keycenter=82 
+<region>sample=DanElectro-Plect-RR1-C5.wav lokey=84 hikey=127 end=108641 pitch_keycenter=84 
+
+<group>name=RR2 seq_length=4 seq_position=2 bendup=200 benddown=200 pitchlfo_freq=4.8 pitchlfo_depth=0 amp_veltrack=39.370079 ampeg_release=0.108 
+
+<region>sample=DanElectro-Plect-RR2-E1.wav lokey=0 hikey=41 end=288756 pitch_keycenter=40 
+<region>sample=DanElectro-Plect-RR2-F#1.wav lokey=42 hikey=43 end=257558 pitch_keycenter=42 
+<region>sample=DanElectro-Plect-RR2-G#1.wav lokey=44 hikey=45 end=260606 pitch_keycenter=44 
+<region>sample=DanElectro-Plect-RR2-A#1.wav lokey=46 hikey=47 end=313179 pitch_keycenter=46 
+<region>sample=DanElectro-Plect-RR2-C2.wav lokey=48 hikey=49 end=339133 pitch_keycenter=48 
+<region>sample=DanElectro-Plect-RR2-D2.wav lokey=50 hikey=51 end=272920 pitch_keycenter=50 
+<region>sample=DanElectro-Plect-RR2-E2.wav lokey=52 hikey=53 end=295900 pitch_keycenter=52 
+<region>sample=DanElectro-Plect-RR2-F#2.wav lokey=54 hikey=55 end=264286 pitch_keycenter=54 
+<region>sample=DanElectro-Plect-RR2-G#2.wav lokey=56 hikey=57 end=185498 pitch_keycenter=56 
+<region>sample=DanElectro-Plect-RR2-A#2.wav lokey=58 hikey=59 end=140197 pitch_keycenter=58 
+<region>sample=DanElectro-Plect-RR2-C3.wav lokey=60 hikey=61 end=170706 pitch_keycenter=60 
+<region>sample=DanElectro-Plect-RR2-D3.wav lokey=62 hikey=63 end=160874 pitch_keycenter=62 
+<region>sample=DanElectro-Plect-RR2-E3.wav lokey=64 hikey=65 end=175480 pitch_keycenter=64 
+<region>sample=DanElectro-Plect-RR2-F#3.wav lokey=66 hikey=67 end=189047 pitch_keycenter=66 
+<region>sample=DanElectro-Plect-RR2-G#3.wav lokey=68 hikey=69 end=153619 pitch_keycenter=68 
+<region>sample=DanElectro-Plect-RR2-A#3.wav lokey=70 hikey=71 end=125434 pitch_keycenter=70 
+<region>sample=DanElectro-Plect-RR2-C4.wav lokey=72 hikey=73 end=197630 pitch_keycenter=72 
+<region>sample=DanElectro-Plect-RR2-D4.wav lokey=74 hikey=75 end=183939 pitch_keycenter=74 
+<region>sample=DanElectro-Plect-RR2-E4.wav lokey=76 hikey=77 end=147587 pitch_keycenter=76 
+<region>sample=DanElectro-Plect-RR2-F#4.wav lokey=78 hikey=79 end=83995 pitch_keycenter=78 
+<region>sample=DanElectro-Plect-RR2-G#4.wav lokey=80 hikey=81 end=104712 pitch_keycenter=80 
+<region>sample=DanElectro-Plect-RR2-A#4.wav lokey=82 hikey=83 end=86137 pitch_keycenter=82 
+<region>sample=DanElectro-Plect-RR2-C5.wav lokey=84 hikey=127 end=87690 pitch_keycenter=84 
+
+<group>name=RR3 seq_length=4 seq_position=3 bendup=200 benddown=200 pitchlfo_freq=4.8 pitchlfo_depth=0 amp_veltrack=39.370079 ampeg_release=0.108 
+
+<region>sample=DanElectro-Plect-RR3-E1.wav lokey=0 hikey=41 end=318940 pitch_keycenter=40 
+<region>sample=DanElectro-Plect-RR3-F#1.wav lokey=42 hikey=43 end=268179 pitch_keycenter=42 
+<region>sample=DanElectro-Plect-RR3-G#1.wav lokey=44 hikey=45 end=262953 pitch_keycenter=44 
+<region>sample=DanElectro-Plect-RR3-A#1.wav lokey=46 hikey=47 end=326609 pitch_keycenter=46 
+<region>sample=DanElectro-Plect-RR3-C2.wav lokey=48 hikey=49 end=364993 pitch_keycenter=48 
+<region>sample=DanElectro-Plect-RR3-D2.wav lokey=50 hikey=51 end=312157 pitch_keycenter=50 
+<region>sample=DanElectro-Plect-RR3-E2.wav lokey=52 hikey=53 end=331132 pitch_keycenter=52 
+<region>sample=DanElectro-Plect-RR3-F#2.wav lokey=54 hikey=55 end=289434 pitch_keycenter=54 
+<region>sample=DanElectro-Plect-RR3-G#2.wav lokey=56 hikey=57 end=217493 pitch_keycenter=56 
+<region>sample=DanElectro-Plect-RR3-A#2.wav lokey=58 hikey=59 end=210705 pitch_keycenter=58 
+<region>sample=DanElectro-Plect-RR3-C3.wav lokey=60 hikey=61 end=230246 pitch_keycenter=60 
+<region>sample=DanElectro-Plect-RR3-D3.wav lokey=62 hikey=63 end=172105 pitch_keycenter=62 
+<region>sample=DanElectro-Plect-RR3-E3.wav lokey=64 hikey=65 end=207735 pitch_keycenter=64 
+<region>sample=DanElectro-Plect-RR3-F#3.wav lokey=66 hikey=67 end=205953 pitch_keycenter=66 
+<region>sample=DanElectro-Plect-RR3-G#3.wav lokey=68 hikey=69 end=159032 pitch_keycenter=68 
+<region>sample=DanElectro-Plect-RR3-A#3.wav lokey=70 hikey=71 end=137791 pitch_keycenter=70 
+<region>sample=DanElectro-Plect-RR3-C4.wav lokey=72 hikey=73 end=198320 pitch_keycenter=72 
+<region>sample=DanElectro-Plect-RR3-D4.wav lokey=74 hikey=75 end=178895 pitch_keycenter=74 
+<region>sample=DanElectro-Plect-RR3-E4.wav lokey=76 hikey=77 end=138665 pitch_keycenter=76 
+<region>sample=DanElectro-Plect-RR3-F#4.wav lokey=78 hikey=79 end=91535 pitch_keycenter=78 
+<region>sample=DanElectro-Plect-RR3-G#4.wav lokey=80 hikey=81 end=104227 pitch_keycenter=80 
+<region>sample=DanElectro-Plect-RR3-A#4.wav lokey=82 hikey=83 end=91360 pitch_keycenter=82 
+<region>sample=DanElectro-Plect-RR3-C5.wav lokey=84 hikey=127 end=108621 pitch_keycenter=84 
+
+<group>name=RR4 seq_length=4 seq_position=4 bendup=200 benddown=200 pitchlfo_freq=4.8 pitchlfo_depth=0 amp_veltrack=39.370079 ampeg_release=0.108 
+
+<region>sample=DanElectro-Plect-RR4-E1.wav lokey=0 hikey=41 end=296195 pitch_keycenter=40 
+<region>sample=DanElectro-Plect-RR4-F#1.wav lokey=42 hikey=43 end=305900 pitch_keycenter=42 
+<region>sample=DanElectro-Plect-RR4-G#1.wav lokey=44 hikey=45 end=229213 pitch_keycenter=44 
+<region>sample=DanElectro-Plect-RR4-A#1.wav lokey=46 hikey=47 end=329565 pitch_keycenter=46 
+<region>sample=DanElectro-Plect-RR4-C2.wav lokey=48 hikey=49 end=436806 pitch_keycenter=48 
+<region>sample=DanElectro-Plect-RR4-D2.wav lokey=50 hikey=51 end=299166 pitch_keycenter=50 
+<region>sample=DanElectro-Plect-RR4-E2.wav lokey=52 hikey=53 end=290919 pitch_keycenter=52 
+<region>sample=DanElectro-Plect-RR4-F#2.wav lokey=54 hikey=55 end=261746 pitch_keycenter=54 
+<region>sample=DanElectro-Plect-RR4-G#2.wav lokey=56 hikey=57 end=190823 pitch_keycenter=56 amplfo_delay=0 amplfo_fade=0 amplfo_freq=3 amplfo_depth=0 amplfo_freqcc0.000000=0 
+<region>sample=DanElectro-Plect-RR4-A#2.wav lokey=58 hikey=59 end=142404 pitch_keycenter=58 
+<region>sample=DanElectro-Plect-RR4-C3.wav lokey=60 hikey=61 end=208939 pitch_keycenter=60 
+<region>sample=DanElectro-Plect-RR4-D3.wav lokey=62 hikey=63 end=180741 pitch_keycenter=62 
+<region>sample=DanElectro-Plect-RR4-E3.wav lokey=64 hikey=65 end=194752 pitch_keycenter=64 
+<region>sample=DanElectro-Plect-RR4-F#3.wav lokey=66 hikey=67 end=186690 pitch_keycenter=66 
+<region>sample=DanElectro-Plect-RR4-G#3.wav lokey=68 hikey=69 end=151062 pitch_keycenter=68 
+<region>sample=DanElectro-Plect-RR4-A#3.wav lokey=70 hikey=71 end=129579 pitch_keycenter=70 
+<region>sample=DanElectro-Plect-RR4-C4.wav lokey=72 hikey=73 end=217582 pitch_keycenter=72 
+<region>sample=DanElectro-Plect-RR4-D4.wav lokey=74 hikey=75 end=175195 pitch_keycenter=74 
+<region>sample=DanElectro-Plect-RR4-E4.wav lokey=76 hikey=77 end=153225 pitch_keycenter=76 
+<region>sample=DanElectro-Plect-RR4-F#4.wav lokey=78 hikey=79 end=79400 pitch_keycenter=78 
+<region>sample=DanElectro-Plect-RR4-G#4.wav lokey=80 hikey=81 end=112660 pitch_keycenter=80 
+<region>sample=DanElectro-Plect-RR4-A#4.wav lokey=82 hikey=83 end=94092 pitch_keycenter=82 
+<region>sample=DanElectro-Plect-RR4-C5.wav lokey=84 hikey=127 end=100091 pitch_keycenter=84 
