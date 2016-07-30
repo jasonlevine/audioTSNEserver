@@ -1,8 +1,8 @@
 (io:osc:start-server 12345 "OF-receive-12345")
 (define OF-server (cons "localhost" 12345))
 
-(define-macro (playTSNE x y n)
-	`(io:osc:send (now) OF-server "/point" ,x ,y ,n))
+(define-macro (playTSNE x y n v d)
+	`(io:osc:send (now) OF-server "/point" ,x ,y ,n ,v ,d))
 
 
 (define *metre1* (make-metre '(4) 1/2))
@@ -11,7 +11,11 @@
   (lambda (beat dur)
 
 	 	(if (*metre1* beat 1)
-    (playTSNE (cosr 260 10 1/3) (sinr 415 10 1/2) 9))
+    (playTSNE (cosr 260 10 1/3) 
+							(sinr 415 10 1/2) 
+							9
+							1.0
+							100))
 
 
        (callback (*metro* (+ beat (* .5 dur))) 'T-SNampler (+ beat dur) 1/8)))

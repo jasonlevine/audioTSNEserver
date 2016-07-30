@@ -87,7 +87,8 @@ void ofApp::update(){
     }
     
     for (int i = 0; i < testPoints.size(); i++){
-        if (testPoints[i].player.getPositionMS() > testPoints[i].duration) {
+        if (testPoints[i].duration != -1 &&
+            testPoints[i].player.getPositionMS() > testPoints[i].duration) {
             testPoints[i].player.stop();
         }
     }
