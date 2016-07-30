@@ -419,7 +419,7 @@ void ofApp::saveTSNE(){
         }
         
         string path = openFileResult.getName();
-        settings.save("settings/" + path + ".xml");
+        settings.save(path + ".xml");
         
     }else {
         ofLogVerbose("User hit cancel");
@@ -637,6 +637,8 @@ void ofApp::keyPressed(int key){
     if (key == 'z') zoomToPoints ^= true;
     
     if (key == 'g') showGui ^= true;
+    
+    if (key == 'f') ofToggleFullscreen();
 }
 
 //--------------------------------------------------------------
