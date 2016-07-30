@@ -67,7 +67,9 @@ void ofApp::update(){
             float x = m.getArgAsFloat(0);
             float y = m.getArgAsFloat(1);
             int n = m.getArgAsInt(2);
-            playTSNE(x, y, n);
+            float vol = m.getArgAsFloat(3);
+            int dur = m.getArgAsInt(4);
+            playTSNE(x, y, n, vol, dur);
         }
     }
    
@@ -84,11 +86,11 @@ void ofApp::update(){
         }
     }
     
-//    for (int i = 0; i < testPoints.size(); i++){
-//        if (testPoints[i].player.getPositionMS() > 100) {
-//            testPoints[i].player.stop();
-//        }
-//    }
+    for (int i = 0; i < testPoints.size(); i++){
+        if (testPoints[i].player.getPositionMS() > testPoints[i].duration) {
+            testPoints[i].player.stop();
+        }
+    }
 }
 
 //--------------------------------------------------------------
@@ -327,7 +329,7 @@ void ofApp::loadAudioToData(string fileName, vector < float > & audioSamples){
 
 //TODO: bering in scalable point selction code. fix algo
 //--------------------------------------------------------------
-void ofApp::playTSNE(float x, float y, int numNearPts){
+void ofApp::playTSNE(float x, float y, int numNearPts, float mainVol, int dur){
     if (testPoints.size() > 0){
         ofPoint pos(x / ofGetWidth(), y / ofGetHeight());
         vector<float> minDist;
@@ -376,7 +378,8 @@ void ofApp::playTSNE(float x, float y, int numNearPts){
         //calc vol and play sound
         for (int i = 0; i < minDist.size(); i++) {
             float vol = sqrt(minDist[i]) / sumDists;
-            testPoints[closest[i]].player.setVolume(vol * 0.5);
+            testPoints[closest[i]].duration = dur;
+            testPoints[closest[i]].player.setVolume(vol * mainVol);
             testPoints[closest[i]].player.play();
         }
         

@@ -29,7 +29,7 @@ public:
     //update/event funcs
     void checkBounds();
     void calcBoundingBox();
-    void playTSNE(float x, float y, int numNearPts);
+    void playTSNE(float x, float y, int numNearPts, float mainVol, int dur);
     
     //draw funcs
     void beginzoom();
@@ -61,6 +61,7 @@ public:
         ofPoint tsnePoint;
         string path;
         ofSoundPlayer player;
+        int duration;
     };
     
     ofxTSNE tsne;
