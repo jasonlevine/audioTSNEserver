@@ -7,6 +7,7 @@
 #include "ofxOsc.h"
 #include "ofxPostProcessing.h"
 #include "ofxGui.h"
+//#include "ofxLearn.h"
 
 #define PORT 12345
 
@@ -24,12 +25,21 @@ public:
     void loadAudioToData(string fileName, vector < float > & audioSamples);
     void saveTSNE();
     void loadTSNE();
-//    void saveTSNE(string path);
-//    void loadTSNE(string path);
+
     //update/event funcs
+    void stepTSNE();
+    void processOSC();
     void checkBounds();
     void calcBoundingBox();
+    void updatePastPoints();
+    void updatePlayers();
+    
+    
+    //play funcs
     void playTSNE(float x, float y, int numNearPts, float mainVol, int dur);
+    bool isPlayable(float pitch);
+    
+    
     
     //draw funcs
     void beginzoom();
@@ -62,6 +72,8 @@ public:
         string path;
         ofSoundPlayer player;
         int duration;
+        float pitch;
+        float pitchConfidence;
     };
     
     ofxTSNE tsne;
@@ -71,6 +83,9 @@ public:
     bool runManually;
     bool bUseSpectrum;
     
+//    ofxLearnKMeans clusterer;
+//    vector<int> clusters;
+//    
     
     //osc
     ofxOscReceiver receiver;
@@ -106,8 +121,10 @@ public:
     ofxButton loadSamplesButton;
     ofxButton loadSettingsButton;
     ofxButton saveSettingsButton;
+    ofxIntSlider pitchToDraw;
     bool showGui;
     
-    
+  //pitch
+    vector<int> playablePitches;
     
 };

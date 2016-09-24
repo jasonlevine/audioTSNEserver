@@ -1,0 +1,3775 @@
+<TSNE>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.A5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.540544</x>
+		<y>0.45202</y>
+		<pitch>70.2997</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.A6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.555871</x>
+		<y>0.416541</y>
+		<pitch>81.631</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.A7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.571231</x>
+		<y>0.417866</y>
+		<pitch>74.1108</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Ab5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.646928</x>
+		<y>0.591886</y>
+		<pitch>60.7868</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Ab6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.632653</x>
+		<y>0.579964</y>
+		<pitch>79.0121</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Ab7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.889925</x>
+		<y>0.486434</y>
+		<pitch>104.262</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.B5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.903051</x>
+		<y>0.470112</y>
+		<pitch>70.4938</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.B6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.60085</x>
+		<y>0.379717</y>
+		<pitch>70.4594</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.B7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.840364</x>
+		<y>0.660646</y>
+		<pitch>83.2185</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Bb5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.829233</x>
+		<y>0.681027</y>
+		<pitch>107.587</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Bb6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.519411</x>
+		<y>0.538447</y>
+		<pitch>63.0407</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Bb7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.736366</x>
+		<y>0.722255</y>
+		<pitch>106.205</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.C5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.731699</x>
+		<y>0.736516</y>
+		<pitch>87.2122</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.C6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.711168</x>
+		<y>0.67457</y>
+		<pitch>48.0542</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.C7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.659331</x>
+		<y>0.438492</y>
+		<pitch>84.4188</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.C8.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.952502</x>
+		<y>0.657524</y>
+		<pitch>108.315</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.D5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.93431</x>
+		<y>0.64761</y>
+		<pitch>108.19</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.D6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.693319</x>
+		<y>0.407885</y>
+		<pitch>83.7278</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.D7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.626985</x>
+		<y>0.418577</y>
+		<pitch>86.2334</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.D8.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.905894</x>
+		<y>0.76557</y>
+		<pitch>86.2864</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Db5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.899633</x>
+		<y>0.757791</y>
+		<pitch>110.357</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Db6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.808717</x>
+		<y>0.521895</y>
+		<pitch>65.556</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Db7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.649879</x>
+		<y>0.380597</y>
+		<pitch>85.1751</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Db8.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.808175</x>
+		<y>0.814793</y>
+		<pitch>85.2666</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.E5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.800348</x>
+		<y>0.802095</y>
+		<pitch>109.405</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.E6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.608096</x>
+		<y>0.616183</y>
+		<pitch>73.3918</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.E7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.626463</x>
+		<y>0.644768</y>
+		<pitch>99.9548</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.E8.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.87995</x>
+		<y>0.573705</y>
+		<pitch>100.331</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Eb5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.859781</x>
+		<y>0.575382</y>
+		<pitch>84.4735</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Eb6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.665259</x>
+		<y>0.622025</y>
+		<pitch>62.968</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Eb7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.669673</x>
+		<y>0.541689</y>
+		<pitch>68.1906</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Eb8.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.990455</x>
+		<y>0.421162</y>
+		<pitch>92.2881</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.F5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.997874</x>
+		<y>0.421787</y>
+		<pitch>111.392</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.F6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.74503</x>
+		<y>0.439418</y>
+		<pitch>89.2965</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.F7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.734036</x>
+		<y>0.453315</y>
+		<pitch>89.4018</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.G5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.672228</x>
+		<y>0.500388</y>
+		<pitch>67.6912</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.G6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.501024</x>
+		<y>0.46975</y>
+		<pitch>60.0482</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.G7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.940327</x>
+		<y>0.302227</y>
+		<pitch>103.223</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Gb5.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.941676</x>
+		<y>0.315768</y>
+		<pitch>84.1024</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Gb6.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.560275</x>
+		<y>0.590403</y>
+		<pitch>77.7557</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.brass.ff.stereo/bells.brass.ff.Gb7.stereo.wav</path>
+		<color>255, 74, 74, 255</color>
+		<x>0.992535</x>
+		<y>0.544319</y>
+		<pitch>78.2029</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.A5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.988821</x>
+		<y>0.552835</y>
+		<pitch>102.088</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.A6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.540268</x>
+		<y>0.433173</y>
+		<pitch>68.9222</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.A7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.582243</x>
+		<y>0.428797</y>
+		<pitch>105.916</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Ab5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.653535</x>
+		<y>0.575908</y>
+		<pitch>60.778</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Ab6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.648533</x>
+		<y>0.565599</y>
+		<pitch>68.2238</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Ab7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.889848</x>
+		<y>0.486442</y>
+		<pitch>104.28</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.B5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.897505</x>
+		<y>0.477116</y>
+		<pitch>70.4989</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.B6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.596467</x>
+		<y>0.372772</y>
+		<pitch>83.6358</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.B7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.832914</x>
+		<y>0.668927</y>
+		<pitch>107.351</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Bb5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.830722</x>
+		<y>0.67404</y>
+		<pitch>83.2539</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Bb6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.519166</x>
+		<y>0.534766</y>
+		<pitch>82.9293</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Bb7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.736492</x>
+		<y>0.712252</y>
+		<pitch>106.385</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.C5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.723544</x>
+		<y>0.731936</y>
+		<pitch>87.2327</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.C6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.718966</x>
+		<y>0.687588</y>
+		<pitch>72.611</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.C7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.661979</x>
+		<y>0.450969</y>
+		<pitch>84.1904</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.C8.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.952916</x>
+		<y>0.657741</y>
+		<pitch>108.387</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.D5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.938956</x>
+		<y>0.650146</y>
+		<pitch>108.204</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.D6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.687575</x>
+		<y>0.414027</y>
+		<pitch>74.1213</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.D7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.627177</x>
+		<y>0.420239</y>
+		<pitch>86.2566</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.D8.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.907922</x>
+		<y>0.768042</y>
+		<pitch>86.2879</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Db5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.89994</x>
+		<y>0.758199</y>
+		<pitch>110.433</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Db6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.807866</x>
+		<y>0.522236</y>
+		<pitch>73.2662</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Db7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.649774</x>
+		<y>0.382437</y>
+		<pitch>85.2397</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Db8.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.806509</x>
+		<y>0.812418</y>
+		<pitch>85.2727</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.E5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.800619</x>
+		<y>0.805275</y>
+		<pitch>109.337</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.E6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.603814</x>
+		<y>0.599777</y>
+		<pitch>76.0386</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.E7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.628862</x>
+		<y>0.646923</y>
+		<pitch>100.204</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.E8.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.879258</x>
+		<y>0.574024</y>
+		<pitch>100.323</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Eb5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.856575</x>
+		<y>0.578193</y>
+		<pitch>84.4857</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Eb6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.675295</x>
+		<y>0.618204</y>
+		<pitch>62.9642</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Eb7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.682608</x>
+		<y>0.549292</y>
+		<pitch>75.2655</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Eb8.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.987839</x>
+		<y>0.420485</y>
+		<pitch>87.2918</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.F5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.993866</x>
+		<y>0.425346</y>
+		<pitch>111.307</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.F6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.727348</x>
+		<y>0.446405</y>
+		<pitch>77.198</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.F7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.727187</x>
+		<y>0.468047</y>
+		<pitch>101.093</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.G5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.682534</x>
+		<y>0.492287</y>
+		<pitch>67.5075</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.G6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.486381</x>
+		<y>0.46608</y>
+		<pitch>60.0595</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.G7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.940468</x>
+		<y>0.303755</y>
+		<pitch>103.267</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Gb5.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.941692</x>
+		<y>0.315739</y>
+		<pitch>75.3228</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Gb6.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.569811</x>
+		<y>0.591319</y>
+		<pitch>77.7162</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/bells.plastic.ff.stereo/bells.plastic.ff.Gb7.stereo.wav</path>
+		<color>255, 165, 74, 255</color>
+		<x>0.993319</x>
+		<y>0.545487</y>
+		<pitch>78.1929</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.A2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>1</x>
+		<y>0.547015</y>
+		<pitch>83.1889</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.A3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.507949</x>
+		<y>0.256019</y>
+		<pitch>57.0779</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.A4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.449307</x>
+		<y>0.125306</y>
+		<pitch>57.1521</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.A5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.451362</x>
+		<y>0.0395074</y>
+		<pitch>69.1208</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.A6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.508845</x>
+		<y>0.41071</y>
+		<pitch>81.296</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Ab2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.535341</x>
+		<y>0.367466</y>
+		<pitch>65.2815</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Ab3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.520749</x>
+		<y>0.266525</y>
+		<pitch>44.2223</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Ab4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.341383</x>
+		<y>0.153571</y>
+		<pitch>56.1274</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Ab5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.330661</x>
+		<y>0.0577282</y>
+		<pitch>68.1686</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Ab6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.728955</x>
+		<y>0.148672</y>
+		<pitch>80.154</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.B2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.644543</x>
+		<y>0.87868</y>
+		<pitch>68.1495</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.B3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.479299</x>
+		<y>0.313444</y>
+		<pitch>59.1003</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.B4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.0306376</x>
+		<y>0.448522</y>
+		<pitch>59.1378</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.B5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.0421193</x>
+		<y>0.390346</y>
+		<pitch>71.1766</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Bb2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.568456</x>
+		<y>0.339577</y>
+		<pitch>86.1297</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Bb3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.487955</x>
+		<y>0.261182</y>
+		<pitch>58.2725</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Bb4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.442279</x>
+		<y>0.156944</y>
+		<pitch>58.0966</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Bb5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.183541</x>
+		<y>0.142589</y>
+		<pitch>70.1569</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Bb6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.142077</x>
+		<y>0.222604</y>
+		<pitch>82.1782</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.C2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.510804</x>
+		<y>0.646183</y>
+		<pitch>75.2284</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.C3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.483341</x>
+		<y>0.842313</y>
+		<pitch>76.1079</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.C4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.38304</x>
+		<y>0.796192</y>
+		<pitch>60.0978</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.C5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.182763</x>
+		<y>0.831082</y>
+		<pitch>60.1523</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.C6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.0957928</x>
+		<y>0.806198</y>
+		<pitch>72.2102</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.C7.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.798284</x>
+		<y>0.277879</y>
+		<pitch>84.2076</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.D2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.778574</x>
+		<y>0.317477</y>
+		<pitch>77.2726</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.D3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.592096</x>
+		<y>0.728212</y>
+		<pitch>78.0558</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.D4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.450656</x>
+		<y>0.648293</y>
+		<pitch>62.1186</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.D5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.441557</x>
+		<y>0.627816</y>
+		<pitch>62.0142</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.D6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.68455</x>
+		<y>0.321645</y>
+		<pitch>74.1992</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Db2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.437316</x>
+		<y>0.538842</y>
+		<pitch>58.4094</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Db3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.397903</x>
+		<y>0.581425</y>
+		<pitch>77.0422</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Db4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.365037</x>
+		<y>0.738694</y>
+		<pitch>61.1049</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Db5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.236964</x>
+		<y>0.84592</y>
+		<pitch>61.1199</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Db6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.276238</x>
+		<y>0.945547</y>
+		<pitch>73.1609</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.E2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.700448</x>
+		<y>0.0795023</y>
+		<pitch>60.9098</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.E3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.678409</x>
+		<y>0.158832</y>
+		<pitch>79.9342</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.E4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.269988</x>
+		<y>0.511092</y>
+		<pitch>52.1278</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.E5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.2659</x>
+		<y>0.539825</y>
+		<pitch>63.855</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.E6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.466742</x>
+		<y>0.841583</y>
+		<pitch>76.1642</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Eb2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.3826</x>
+		<y>0.410485</y>
+		<pitch>60.0636</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Eb3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.448497</x>
+		<y>0.472758</y>
+		<pitch>79.1448</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Eb4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.272902</x>
+		<y>0.519438</y>
+		<pitch>51.2138</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Eb5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.218657</x>
+		<y>0.643436</y>
+		<pitch>63.0351</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Eb6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.642312</x>
+		<y>0.941705</y>
+		<pitch>75.1867</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.F2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.694168</x>
+		<y>0.862495</y>
+		<pitch>68.3454</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.F3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.457611</x>
+		<y>0.397715</y>
+		<pitch>80.9333</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.F4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.286425</x>
+		<y>0.492481</y>
+		<pitch>53.183</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.F5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.374799</x>
+		<y>0.537414</y>
+		<pitch>65.0982</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.F6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.355538</x>
+		<y>0.625387</y>
+		<pitch>77.1976</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.G2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.305568</x>
+		<y>0.630969</y>
+		<pitch>70.2552</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.G3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.536041</x>
+		<y>0.304007</y>
+		<pitch>82.8147</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.G4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.372239</x>
+		<y>0.258244</y>
+		<pitch>55.1843</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.G5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.35223</x>
+		<y>0.33697</y>
+		<pitch>67.0633</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.G6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.468351</x>
+		<y>0.465408</y>
+		<pitch>79.0028</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Gb2.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.198811</x>
+		<y>0.196567</y>
+		<pitch>63.2039</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Gb3.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.178289</x>
+		<y>0.212414</y>
+		<pitch>82.1262</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Gb4.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.279904</x>
+		<y>0.402385</y>
+		<pitch>54.1976</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Gb5.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.208631</x>
+		<y>0.400075</y>
+		<pitch>65.8416</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.cord.ff.stereo/Marimba.cord.ff.Gb6.stereo.wav</path>
+		<color>255, 255, 74, 255</color>
+		<x>0.590401</x>
+		<y>0.73125</y>
+		<pitch>78.1292</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.A2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.502243</x>
+		<y>0.590194</y>
+		<pitch>54.1446</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.A3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.508436</x>
+		<y>0.205089</y>
+		<pitch>57.0288</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.A4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.441692</x>
+		<y>0.0919037</y>
+		<pitch>57.1968</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Ab2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.428147</x>
+		<y>0.0660793</y>
+		<pitch>70.2529</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Ab3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.556511</x>
+		<y>0.233243</y>
+		<pitch>84.0362</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Ab5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.66604</x>
+		<y>0.0544597</y>
+		<pitch>56.1143</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Ab6.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.751702</x>
+		<y>0.139634</y>
+		<pitch>80.1585</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.B2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.635468</x>
+		<y>0.872491</y>
+		<pitch>68.2437</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.B3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.44792</x>
+		<y>0.301204</y>
+		<pitch>58.8496</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.B4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.00410472</x>
+		<y>0.449069</y>
+		<pitch>59.0838</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.B5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.0346366</x>
+		<y>0.365238</y>
+		<pitch>71.3261</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.B6.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.606721</x>
+		<y>0.319974</y>
+		<pitch>83.3607</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Bb2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.66449</x>
+		<y>0.300154</y>
+		<pitch>86.1004</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Bb3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.453629</x>
+		<y>0.240316</y>
+		<pitch>58.2309</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Bb4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.409102</x>
+		<y>0.14741</y>
+		<pitch>58.1034</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Bb5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.175625</x>
+		<y>0.120961</y>
+		<pitch>70.1383</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Bb6.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.486891</x>
+		<y>0.709046</y>
+		<pitch>82.1575</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.C2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.498092</x>
+		<y>0.66369</y>
+		<pitch>75.2776</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.C3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.475487</x>
+		<y>0.870317</y>
+		<pitch>88.2766</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.C4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.368375</x>
+		<y>0.82672</y>
+		<pitch>60.0546</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.C5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.145842</x>
+		<y>0.833422</y>
+		<pitch>60.1565</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.D2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.119791</x>
+		<y>0.834153</y>
+		<pitch>59.7334</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.D3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.614806</x>
+		<y>0.75095</y>
+		<pitch>78.0216</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.D4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.279843</x>
+		<y>0.743036</y>
+		<pitch>62.2091</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.D5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.250249</x>
+		<y>0.764339</y>
+		<pitch>61.9609</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Db2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.420278</x>
+		<y>0.530837</y>
+		<pitch>76.9721</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Db3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.371202</x>
+		<y>0.600878</y>
+		<pitch>77.2553</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Db4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.339675</x>
+		<y>0.755617</y>
+		<pitch>61.1428</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Db5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.257582</x>
+		<y>0.825467</y>
+		<pitch>61.1968</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.E2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.680388</x>
+		<y>0.0975864</y>
+		<pitch>60.8871</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.E3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.693184</x>
+		<y>0.169461</y>
+		<pitch>79.9851</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.E4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.216976</x>
+		<y>0.529713</y>
+		<pitch>52.1281</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.E5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.165741</x>
+		<y>0.537516</y>
+		<pitch>64.0457</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Eb2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.38294</x>
+		<y>0.393982</y>
+		<pitch>78.7222</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Eb3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.418474</x>
+		<y>0.44456</y>
+		<pitch>79.4337</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Eb4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.218244</x>
+		<y>0.558</y>
+		<pitch>63.3304</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.F2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.218658</x>
+		<y>0.57266</y>
+		<pitch>62.2992</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.F3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.458606</x>
+		<y>0.381875</y>
+		<pitch>81.2184</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.F4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.270579</x>
+		<y>0.460604</y>
+		<pitch>65.3864</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.F5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.342549</x>
+		<y>0.551913</y>
+		<pitch>65.0635</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.G2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.398835</x>
+		<y>0.538749</y>
+		<pitch>64.8963</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.G3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.574303</x>
+		<y>0.285386</y>
+		<pitch>82.9016</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.G4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.321737</x>
+		<y>0.273719</y>
+		<pitch>55.2047</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.G5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.300824</x>
+		<y>0.306067</y>
+		<pitch>67.0158</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Gb2.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.164366</x>
+		<y>0.179121</y>
+		<pitch>81.8119</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Gb3.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.156986</x>
+		<y>0.232029</y>
+		<pitch>82.1896</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Gb4.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.248462</x>
+		<y>0.401736</y>
+		<pitch>54.1502</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.deadstroke.ff.stereo/Marimba.deadstroke.ff.Gb5.stereo.wav</path>
+		<color>165, 255, 74, 255</color>
+		<x>0.186103</x>
+		<y>0.414711</y>
+		<pitch>65.8592</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.A2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.482385</x>
+		<y>0.579834</y>
+		<pitch>54.1675</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.A3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.507571</x>
+		<y>0.215372</y>
+		<pitch>84.8041</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.A4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.450677</x>
+		<y>0.108211</y>
+		<pitch>57.1239</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.A5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.428214</x>
+		<y>0.0420122</y>
+		<pitch>69.088</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.A6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.502334</x>
+		<y>0.40545</y>
+		<pitch>81.2862</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Ab2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.533358</x>
+		<y>0.353926</y>
+		<pitch>83.2483</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Ab3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.549873</x>
+		<y>0.241314</y>
+		<pitch>84.1812</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Ab4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.33029</x>
+		<y>0.139445</y>
+		<pitch>56.0971</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Ab5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.329097</x>
+		<y>0.0321804</y>
+		<pitch>68.1414</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Ab6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.751453</x>
+		<y>0.140035</y>
+		<pitch>80.1414</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.B2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.63046</x>
+		<y>0.870209</y>
+		<pitch>68.1859</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.B3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.460533</x>
+		<y>0.30838</y>
+		<pitch>86.6354</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.B4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.0195287</x>
+		<y>0.452086</y>
+		<pitch>59.0596</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.B5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.0295077</x>
+		<y>0.387023</y>
+		<pitch>71.2274</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Bb2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.660636</x>
+		<y>0.294338</y>
+		<pitch>85.9511</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Bb3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.461547</x>
+		<y>0.247349</y>
+		<pitch>86.1697</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Bb4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.43605</x>
+		<y>0.162876</y>
+		<pitch>58.1368</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Bb5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.185534</x>
+		<y>0.129379</y>
+		<pitch>70.1915</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Bb6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.118711</x>
+		<y>0.215835</y>
+		<pitch>82.1606</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.C2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.508021</x>
+		<y>0.657521</y>
+		<pitch>75.23</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.C3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.48567</x>
+		<y>0.848139</y>
+		<pitch>75.9986</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.C4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.374048</x>
+		<y>0.808442</y>
+		<pitch>60.062</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.C5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.179163</x>
+		<y>0.82911</y>
+		<pitch>60.1473</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.C6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.0954861</x>
+		<y>0.80678</y>
+		<pitch>72.2261</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.C7.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.813005</x>
+		<y>0.274684</y>
+		<pitch>84.2122</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.D2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.780155</x>
+		<y>0.314945</y>
+		<pitch>77.2155</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.D3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.608347</x>
+		<y>0.740025</y>
+		<pitch>78.0887</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.D4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.441559</x>
+		<y>0.659838</y>
+		<pitch>62.1103</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.D5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.261077</x>
+		<y>0.746447</y>
+		<pitch>62.264</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.D6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.694455</x>
+		<y>0.308298</y>
+		<pitch>74.1977</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Db2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.443963</x>
+		<y>0.540152</y>
+		<pitch>58.3172</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Db3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.397918</x>
+		<y>0.582321</y>
+		<pitch>77.0423</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Db4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.35944</x>
+		<y>0.743238</y>
+		<pitch>61.0989</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Db5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.250058</x>
+		<y>0.836302</y>
+		<pitch>61.1807</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Db6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.254898</x>
+		<y>0.956152</y>
+		<pitch>73.1396</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.E2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.707709</x>
+		<y>0.0742407</y>
+		<pitch>60.9321</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.E3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.6848</x>
+		<y>0.152008</y>
+		<pitch>79.8448</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.E4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.239082</x>
+		<y>0.51949</y>
+		<pitch>52.1268</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.E5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.177751</x>
+		<y>0.558201</y>
+		<pitch>63.8759</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.E6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.458482</x>
+		<y>0.876296</y>
+		<pitch>76.1468</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Eb2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.391166</x>
+		<y>0.407028</y>
+		<pitch>60.0472</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Eb3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.417734</x>
+		<y>0.443623</y>
+		<pitch>79.3391</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Eb4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.240581</x>
+		<y>0.546778</y>
+		<pitch>51.2369</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Eb5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.199651</x>
+		<y>0.628561</y>
+		<pitch>63.0628</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Eb6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.660069</x>
+		<y>0.969067</y>
+		<pitch>75.1982</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.F2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.702239</x>
+		<y>0.879834</y>
+		<pitch>68.2891</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.F3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.471595</x>
+		<y>0.377326</y>
+		<pitch>81.0101</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.F4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.281734</x>
+		<y>0.459856</y>
+		<pitch>65.3774</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.F5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.339012</x>
+		<y>0.534112</y>
+		<pitch>65.171</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.F6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.360111</x>
+		<y>0.646101</y>
+		<pitch>77.1979</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.G2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.313311</x>
+		<y>0.638743</y>
+		<pitch>70.2107</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.G3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.575066</x>
+		<y>0.289904</y>
+		<pitch>82.8904</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.G4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.347442</x>
+		<y>0.24386</y>
+		<pitch>55.1539</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.G5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.319263</x>
+		<y>0.307662</y>
+		<pitch>67.0735</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.G6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.461503</x>
+		<y>0.455188</y>
+		<pitch>78.94</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Gb2.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.191339</x>
+		<y>0.194961</y>
+		<pitch>63.3193</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Gb3.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.165694</x>
+		<y>0.210746</y>
+		<pitch>82.1499</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Gb4.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.249214</x>
+		<y>0.395424</y>
+		<pitch>54.1803</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Gb5.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.181629</x>
+		<y>0.394383</y>
+		<pitch>66.0151</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.rubber.ff.stereo/Marimba.rubber.ff.Gb6.stereo.wav</path>
+		<color>74, 255, 74, 255</color>
+		<x>0.595719</x>
+		<y>0.760527</y>
+		<pitch>78.1514</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.A2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.504108</x>
+		<y>0.592082</y>
+		<pitch>66.073</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.A3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.506255</x>
+		<y>0.225876</y>
+		<pitch>57.1243</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.A4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.448973</x>
+		<y>0.117427</y>
+		<pitch>57.0774</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.A5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.437038</x>
+		<y>0.0405942</y>
+		<pitch>69.2873</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.A6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.506126</x>
+		<y>0.408217</y>
+		<pitch>81.2168</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Ab2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.533405</x>
+		<y>0.365671</y>
+		<pitch>65.3569</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Ab3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.536681</x>
+		<y>0.251966</y>
+		<pitch>56.0639</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Ab4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.343303</x>
+		<y>0.15656</y>
+		<pitch>56.0907</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Ab5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.32623</x>
+		<y>0.0619789</y>
+		<pitch>68.0904</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Ab6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.728347</x>
+		<y>0.148799</y>
+		<pitch>80.1888</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.B2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.646497</x>
+		<y>0.880437</y>
+		<pitch>68.063</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.B3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.460239</x>
+		<y>0.308496</y>
+		<pitch>86.7949</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.B4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.0264222</x>
+		<y>0.455613</y>
+		<pitch>59.0489</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.B5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.0397844</x>
+		<y>0.380526</y>
+		<pitch>71.2399</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.B6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.602502</x>
+		<y>0.341267</y>
+		<pitch>83.4973</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Bb2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.56591</x>
+		<y>0.340202</y>
+		<pitch>85.6928</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Bb3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.467912</x>
+		<y>0.250093</y>
+		<pitch>58.2448</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Bb4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.439728</x>
+		<y>0.167701</y>
+		<pitch>58.1764</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Bb5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.184047</x>
+		<y>0.144591</y>
+		<pitch>70.1839</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Bb6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.137346</x>
+		<y>0.229582</y>
+		<pitch>82.2028</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.C2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.50832</x>
+		<y>0.646827</y>
+		<pitch>75.2488</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.C3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.477994</x>
+		<y>0.840343</y>
+		<pitch>75.9958</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.C4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.372145</x>
+		<y>0.80558</y>
+		<pitch>60.0949</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.C5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.172882</x>
+		<y>0.826801</y>
+		<pitch>60.1283</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.C6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.0870499</x>
+		<y>0.810515</y>
+		<pitch>72.1614</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.C7.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.798945</x>
+		<y>0.276697</y>
+		<pitch>84.1899</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.D3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.561511</x>
+		<y>0.637068</y>
+		<pitch>77.4278</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.D4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.441789</x>
+		<y>0.654008</y>
+		<pitch>62.0004</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.D5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.25346</x>
+		<y>0.745819</y>
+		<pitch>62.0201</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.D6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.704128</x>
+		<y>0.305799</y>
+		<pitch>74.2027</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Db2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.443881</x>
+		<y>0.540726</y>
+		<pitch>58.3517</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Db3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.395057</x>
+		<y>0.5781</y>
+		<pitch>77.068</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Db4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.357731</x>
+		<y>0.742825</y>
+		<pitch>49.1139</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Db5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.242174</x>
+		<y>0.834224</y>
+		<pitch>61.101</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Db6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.274185</x>
+		<y>0.946506</y>
+		<pitch>73.1184</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.E2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.698148</x>
+		<y>0.0800716</y>
+		<pitch>60.9837</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.E3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.681877</x>
+		<y>0.158993</y>
+		<pitch>79.9781</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.E4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.240161</x>
+		<y>0.513638</y>
+		<pitch>52.1179</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.E5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.168901</x>
+		<y>0.560477</y>
+		<pitch>64.0792</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.E6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.452962</x>
+		<y>0.871647</y>
+		<pitch>76.1125</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Eb2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.506327</x>
+		<y>0.806965</y>
+		<pitch>76.6202</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Eb3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.431704</x>
+		<y>0.486903</y>
+		<pitch>78.7499</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Eb4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.23953</x>
+		<y>0.543137</y>
+		<pitch>51.3284</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Eb5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.203183</x>
+		<y>0.625896</y>
+		<pitch>63.049</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Eb6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.642041</x>
+		<y>0.944674</y>
+		<pitch>75.1519</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.F2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.693248</x>
+		<y>0.86315</y>
+		<pitch>56.1273</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.F3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.450171</x>
+		<y>0.397436</y>
+		<pitch>80.9229</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.F4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.274778</x>
+		<y>0.45097</y>
+		<pitch>53.4311</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.F5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.332697</x>
+		<y>0.530227</y>
+		<pitch>65.0528</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.F6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.354262</x>
+		<y>0.624701</y>
+		<pitch>77.1863</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.G2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.302921</x>
+		<y>0.629813</y>
+		<pitch>70.444</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.G3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.539494</x>
+		<y>0.297309</y>
+		<pitch>55.1139</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.G4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.362506</x>
+		<y>0.251263</y>
+		<pitch>55.2109</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.G5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.3267</x>
+		<y>0.311495</y>
+		<pitch>67.168</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.G6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.62629</x>
+		<y>0.224211</y>
+		<pitch>79.2766</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Gb2.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.203365</x>
+		<y>0.200073</y>
+		<pitch>63.2428</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Gb3.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.162416</x>
+		<y>0.210384</y>
+		<pitch>82.1534</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Gb4.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.274842</x>
+		<y>0.407535</y>
+		<pitch>54.1058</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Gb5.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.203105</x>
+		<y>0.399128</y>
+		<pitch>65.8406</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Marimba.yarn.ff.stereo/Marimba.yarn.ff.Gb6.stereo.wav</path>
+		<color>74, 255, 165, 255</color>
+		<x>0.59035</x>
+		<y>0.750068</y>
+		<pitch>78.2057</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.A3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.57713</x>
+		<y>0.64636</y>
+		<pitch>90.1669</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.A4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.587004</x>
+		<y>0.476227</y>
+		<pitch>57.1286</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.A5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.601881</x>
+		<y>0.469726</y>
+		<pitch>69.1069</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Ab3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.599713</x>
+		<y>0.483669</y>
+		<pitch>81.4969</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Ab4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.609552</x>
+		<y>0.491938</y>
+		<pitch>56.1256</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Ab5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.641202</x>
+		<y>0.50936</y>
+		<pitch>68.1614</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.B3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.624793</x>
+		<y>0.517585</y>
+		<pitch>61.0243</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.B4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.566268</x>
+		<y>0.476204</y>
+		<pitch>59.1135</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.B5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.60937</x>
+		<y>0.454342</y>
+		<pitch>71.1567</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Bb3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.591325</x>
+		<y>0.45702</y>
+		<pitch>59.1003</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Bb4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.578572</x>
+		<y>0.486667</y>
+		<pitch>58.103</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Bb5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.575351</x>
+		<y>0.463784</y>
+		<pitch>70.1344</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.C3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.552256</x>
+		<y>0.484754</y>
+		<pitch>82.2211</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.C4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.548609</x>
+		<y>0.502903</y>
+		<pitch>48.1066</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.C5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.589367</x>
+		<y>0.495728</y>
+		<pitch>60.1198</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.C6.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.637978</x>
+		<y>0.475571</y>
+		<pitch>72.1027</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.D3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.626908</x>
+		<y>0.462892</y>
+		<pitch>84.2448</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.D4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.57215</x>
+		<y>0.527521</y>
+		<pitch>50.1007</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.D5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.570504</x>
+		<y>0.548036</y>
+		<pitch>62.1325</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.D6.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.64254</x>
+		<y>0.492079</y>
+		<pitch>74.1042</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Db3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.616693</x>
+		<y>0.475586</y>
+		<pitch>86.1771</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Db4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.579653</x>
+		<y>0.504862</y>
+		<pitch>49.2045</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Db5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.554231</x>
+		<y>0.520162</y>
+		<pitch>61.103</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Db6.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.557402</x>
+		<y>0.537678</y>
+		<pitch>73.1046</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.E3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.624324</x>
+		<y>0.487867</y>
+		<pitch>73.1766</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.E4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.593425</x>
+		<y>0.512806</y>
+		<pitch>52.1456</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.E5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.588541</x>
+		<y>0.555849</y>
+		<pitch>64.0762</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.E6.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.604617</x>
+		<y>0.558457</y>
+		<pitch>76.1198</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Eb3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.601074</x>
+		<y>0.5023</y>
+		<pitch>88.0529</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Eb4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.58233</x>
+		<y>0.519814</y>
+		<pitch>51.1226</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Eb5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.584686</x>
+		<y>0.540161</y>
+		<pitch>63.0996</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Eb6.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.630901</x>
+		<y>0.537863</y>
+		<pitch>75.1534</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.F3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.640036</x>
+		<y>0.524907</y>
+		<pitch>75.2205</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.F4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.604258</x>
+		<y>0.519824</y>
+		<pitch>65.2009</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.F5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.603466</x>
+		<y>0.53994</y>
+		<pitch>65.1482</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.F6.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.617781</x>
+		<y>0.545835</y>
+		<pitch>77.1163</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.G3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.625927</x>
+		<y>0.501539</y>
+		<pitch>89.2644</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.G4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.566403</x>
+		<y>0.495874</y>
+		<pitch>55.0934</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.G5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.615337</x>
+		<y>0.527379</y>
+		<pitch>67.1045</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Gb3.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.613462</x>
+		<y>0.507475</y>
+		<pitch>55.097</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Gb4.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.567203</x>
+		<y>0.511049</y>
+		<pitch>54.0953</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.bow.stereo/Vibraphone.bow.Gb5.stereo.wav</path>
+		<color>74, 255, 255, 255</color>
+		<x>0.594477</x>
+		<y>0.529936</y>
+		<pitch>66.1395</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.A3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.522234</x>
+		<y>0.166795</y>
+		<pitch>85.0818</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.A4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.493287</x>
+		<y>0.12714</y>
+		<pitch>69.2013</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.A5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.432388</x>
+		<y>0.0240223</y>
+		<pitch>69.4358</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Ab3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.49248</x>
+		<y>0.00251493</y>
+		<pitch>62.2164</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Ab4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.338815</x>
+		<y>0.120857</y>
+		<pitch>56.1162</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Ab5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.321997</x>
+		<y>0.0553984</y>
+		<pitch>68.0741</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.B3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.657672</x>
+		<y>0.0709713</y>
+		<pitch>80.0472</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.B4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.0181945</x>
+		<y>0.472691</y>
+		<pitch>59.1192</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.B5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.00395781</x>
+		<y>0.367198</y>
+		<pitch>71.2111</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Bb3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.569227</x>
+		<y>0.125569</y>
+		<pitch>64.1913</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Bb4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.408917</x>
+		<y>0.171174</y>
+		<pitch>58.1309</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Bb5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.195546</x>
+		<y>0.113782</y>
+		<pitch>70.0597</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.C3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.13301</x>
+		<y>0.164924</y>
+		<pitch>69.9372</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.C4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.391237</x>
+		<y>0.858107</y>
+		<pitch>76.0156</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.C5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.144637</x>
+		<y>0.850435</y>
+		<pitch>72.1031</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.C6.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.0540669</x>
+		<y>0.818809</y>
+		<pitch>72.1709</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.D3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.868062</x>
+		<y>0.178108</y>
+		<pitch>56.2475</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.D4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.852691</x>
+		<y>0.379152</y>
+		<pitch>78.0735</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.D5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.23925</x>
+		<y>0.737207</y>
+		<pitch>62.124</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.D6.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.162977</x>
+		<y>0.721793</y>
+		<pitch>74.0987</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Db3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.68727</x>
+		<y>0.271568</y>
+		<pitch>86.322</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Db4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.423019</x>
+		<y>0.726462</y>
+		<pitch>60.9958</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Db5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.245307</x>
+		<y>0.862451</y>
+		<pitch>61.0752</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Db6.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.242211</x>
+		<y>0.964634</y>
+		<pitch>73.0123</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.E3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.338437</x>
+		<y>0.99706</y>
+		<pitch>72.9623</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.E4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.483044</x>
+		<y>0.950042</y>
+		<pitch>64.0595</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.E5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.141852</x>
+		<y>0.569184</y>
+		<pitch>64.1231</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.E6.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.11952</x>
+		<y>0.584408</y>
+		<pitch>76.1996</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Eb3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.487174</x>
+		<y>0.499569</y>
+		<pitch>79.7603</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Eb4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.790965</x>
+		<y>0.38497</y>
+		<pitch>63.0956</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Eb5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.211429</x>
+		<y>0.644601</y>
+		<pitch>63.0813</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Eb6.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.647828</x>
+		<y>0.982235</y>
+		<pitch>75.1975</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.F3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.693404</x>
+		<y>0.928241</y>
+		<pitch>59.1172</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.F4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.31948</x>
+		<y>0.472953</y>
+		<pitch>46.1035</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.F5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.343298</x>
+		<y>0.568093</y>
+		<pitch>65.1486</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.F6.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.384254</x>
+		<y>0.648591</y>
+		<pitch>77.2097</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.G3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.324299</x>
+		<y>0.668873</y>
+		<pitch>76.6583</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.G4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.336804</x>
+		<y>0.224693</y>
+		<pitch>94.7225</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.G5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.333445</x>
+		<y>0.328759</y>
+		<pitch>67.1288</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Gb3.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.393105</x>
+		<y>0.358473</y>
+		<pitch>60.1462</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Gb4.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.28094</x>
+		<y>0.374135</y>
+		<pitch>54.1153</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.dampen.ff.stereo/Vibraphone.dampen.ff.Gb5.stereo.wav</path>
+		<color>74, 165, 255, 255</color>
+		<x>0.20858</x>
+		<y>0.390892</y>
+		<pitch>66.0949</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.A3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.523072</x>
+		<y>0.156233</y>
+		<pitch>78.0497</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.A4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.500857</x>
+		<y>0.1308</y>
+		<pitch>96.8302</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.A5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.417157</x>
+		<y>0.0142069</y>
+		<pitch>69.3806</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Ab3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.495257</x>
+		<y>0</y>
+		<pitch>81.539</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Ab4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.344652</x>
+		<y>0.118627</y>
+		<pitch>56.121</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Ab5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.316409</x>
+		<y>0.0291569</y>
+		<pitch>67.9999</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.B3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.627562</x>
+		<y>0.0682592</y>
+		<pitch>80.0263</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.B4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.000704927</x>
+		<y>0.484636</y>
+		<pitch>59.1252</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.B5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0</x>
+		<y>0.374386</y>
+		<pitch>71.1251</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Bb3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.569194</x>
+		<y>0.124766</y>
+		<pitch>64.2478</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Bb4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.417924</x>
+		<y>0.189228</y>
+		<pitch>58.1128</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Bb5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.192203</x>
+		<y>0.0958574</y>
+		<pitch>70.0894</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.C3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.131059</x>
+		<y>0.159458</y>
+		<pitch>69.7096</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.C4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.392312</x>
+		<y>0.872072</y>
+		<pitch>60.1017</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.C5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.158698</x>
+		<y>0.861368</y>
+		<pitch>60.1088</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.C6.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.054048</x>
+		<y>0.817796</y>
+		<pitch>72.1131</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.D3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.87394</x>
+		<y>0.167703</y>
+		<pitch>56.2765</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.D4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.870888</x>
+		<y>0.371205</y>
+		<pitch>62.0666</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.D5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.223707</x>
+		<y>0.743702</y>
+		<pitch>62.1154</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.D6.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.15588</x>
+		<y>0.71898</y>
+		<pitch>74.0906</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Db3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.704228</x>
+		<y>0.259154</y>
+		<pitch>86.4874</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Db4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.408278</x>
+		<y>0.735581</y>
+		<pitch>61.0273</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Db5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.262701</x>
+		<y>0.86203</y>
+		<pitch>61.0789</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Db6.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.232514</x>
+		<y>0.95731</y>
+		<pitch>72.9868</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.E3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.341489</x>
+		<y>0.999115</y>
+		<pitch>61.0662</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.E4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.485328</x>
+		<y>0.963269</y>
+		<pitch>64.1551</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.E5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.152149</x>
+		<y>0.551173</y>
+		<pitch>64.1364</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.E6.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.106207</x>
+		<y>0.595481</y>
+		<pitch>76.0756</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Eb3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.492768</x>
+		<y>0.890707</y>
+		<pitch>89.4271</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Eb4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.791422</x>
+		<y>0.384448</y>
+		<pitch>103.04</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Eb5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.192766</x>
+		<y>0.641655</y>
+		<pitch>63.0974</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Eb6.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.646945</x>
+		<y>0.991467</y>
+		<pitch>75.1593</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.F3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.698146</x>
+		<y>0.937191</y>
+		<pitch>59.2684</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.F4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.326993</x>
+		<y>0.452779</y>
+		<pitch>105.008</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.F5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.325076</x>
+		<y>0.547141</y>
+		<pitch>65.1499</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.F6.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.384337</x>
+		<y>0.656127</y>
+		<pitch>77.1405</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.G3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.335538</x>
+		<y>0.680081</y>
+		<pitch>76.8715</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.G4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.333425</x>
+		<y>0.246532</y>
+		<pitch>55.2933</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.G5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.309062</x>
+		<y>0.300241</y>
+		<pitch>66.8403</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Gb3.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.393903</x>
+		<y>0.3582</y>
+		<pitch>60.0526</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Gb4.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.262847</x>
+		<y>0.373589</y>
+		<pitch>66.1265</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.shortsustain.ff.stereo/Vibraphone.shortsustain.ff.Gb5.stereo.wav</path>
+		<color>74, 74, 255, 255</color>
+		<x>0.172679</x>
+		<y>0.390401</y>
+		<pitch>66.0634</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.A3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.540173</x>
+		<y>0.779678</y>
+		<pitch>78.1238</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.A4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.466991</x>
+		<y>0.117659</y>
+		<pitch>57.1268</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.A5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.444073</x>
+		<y>0.0485014</y>
+		<pitch>69.3623</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Ab3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.566315</x>
+		<y>0.225623</y>
+		<pitch>83.9483</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Ab4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.338042</x>
+		<y>0.121822</y>
+		<pitch>56.1223</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Ab5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.320876</x>
+		<y>0.0478493</y>
+		<pitch>68.0306</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.B3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.627339</x>
+		<y>0.0689099</y>
+		<pitch>80.0208</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.B4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.00447006</x>
+		<y>0.485951</y>
+		<pitch>59.1331</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.B5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.0115911</x>
+		<y>0.389098</y>
+		<pitch>71.1059</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Bb3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.50445</x>
+		<y>0.315432</y>
+		<pitch>64.2895</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Bb4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.408844</x>
+		<y>0.167359</y>
+		<pitch>58.1462</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Bb5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.204652</x>
+		<y>0.105349</y>
+		<pitch>70.0637</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.C3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.121635</x>
+		<y>0.163344</y>
+		<pitch>48.2245</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.C4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.390273</x>
+		<y>0.858353</y>
+		<pitch>60.1083</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.C5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.15848</x>
+		<y>0.854868</y>
+		<pitch>60.1195</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.C6.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.0751592</x>
+		<y>0.807967</y>
+		<pitch>72.1383</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.D3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.870849</x>
+		<y>0.1733</y>
+		<pitch>71.7904</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.D4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.865929</x>
+		<y>0.373403</y>
+		<pitch>102.232</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.D5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.229001</x>
+		<y>0.739969</y>
+		<pitch>62.1102</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.D6.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.159532</x>
+		<y>0.720526</y>
+		<pitch>74.094</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Db3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.696719</x>
+		<y>0.265007</y>
+		<pitch>86.0177</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Db4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.421892</x>
+		<y>0.727532</y>
+		<pitch>61.0478</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Db5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.254835</x>
+		<y>0.869068</y>
+		<pitch>61.0659</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Db6.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.238441</x>
+		<y>0.956242</y>
+		<pitch>73.0655</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.E3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.34285</x>
+		<y>1</y>
+		<pitch>54.0203</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.E4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.483176</x>
+		<y>0.958943</y>
+		<pitch>64.0043</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.E5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.154742</x>
+		<y>0.565527</y>
+		<pitch>64.1216</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.E6.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.11162</x>
+		<y>0.591122</y>
+		<pitch>76.1407</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Eb3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.49276</x>
+		<y>0.888523</y>
+		<pitch>88.2325</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Eb5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.229361</x>
+		<y>0.65101</y>
+		<pitch>63.0559</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Eb6.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.660874</x>
+		<y>0.9777</y>
+		<pitch>75.1379</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.F3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.697583</x>
+		<y>0.938995</y>
+		<pitch>59.2277</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.F4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.321615</x>
+		<y>0.459286</y>
+		<pitch>65.0862</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.F5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.326727</x>
+		<y>0.540106</y>
+		<pitch>65.132</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.F6.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.372253</x>
+		<y>0.638059</y>
+		<pitch>77.1501</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.G3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.326844</x>
+		<y>0.669546</y>
+		<pitch>76.7389</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.G4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.339406</x>
+		<y>0.230898</y>
+		<pitch>67.0075</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.G5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.343261</x>
+		<y>0.307121</y>
+		<pitch>67.0552</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Gb3.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.356915</x>
+		<y>0.372043</y>
+		<pitch>60.248</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Gb4.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.274935</x>
+		<y>0.365321</y>
+		<pitch>66.1132</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Vibraphone.sustain.ff.stereo/Vibraphone.sustain.ff.Gb5.stereo.wav</path>
+		<color>165, 74, 255, 255</color>
+		<x>0.214372</x>
+		<y>0.379607</y>
+		<pitch>66.1003</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.A4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.521395</x>
+		<y>0.758603</y>
+		<pitch>77.3251</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.A5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.470852</x>
+		<y>0.0199347</y>
+		<pitch>69.0902</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.A6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.487331</x>
+		<y>0.38685</y>
+		<pitch>81.1505</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Ab4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.688627</x>
+		<y>0.579224</y>
+		<pitch>100.465</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Ab5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.662715</x>
+		<y>0.0716031</y>
+		<pitch>68.0449</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.B4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.753479</x>
+		<y>0.626871</y>
+		<pitch>78.6682</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.B5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.0529667</x>
+		<y>0.381046</y>
+		<pitch>70.9403</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.B6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.605935</x>
+		<y>0.308989</y>
+		<pitch>83.1469</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Bb4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.754234</x>
+		<y>0.516938</y>
+		<pitch>67.2012</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Bb5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.198314</x>
+		<y>0.173499</y>
+		<pitch>70.2314</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Bb6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.494625</x>
+		<y>0.70237</y>
+		<pitch>82.1895</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.C5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.544008</x>
+		<y>0.680493</y>
+		<pitch>103.907</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.C6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.855199</x>
+		<y>0.200587</y>
+		<pitch>72.2204</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.D5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.852059</x>
+		<y>0.207452</y>
+		<pitch>72.5343</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.D6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.697146</x>
+		<y>0.309863</y>
+		<pitch>74.2133</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Db5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.694628</x>
+		<y>0.342919</y>
+		<pitch>74.1371</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Db6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.285011</x>
+		<y>0.944984</y>
+		<pitch>73.1199</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.E5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.797264</x>
+		<y>0.590455</y>
+		<pitch>57.4372</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.E6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.449231</x>
+		<y>0.883791</y>
+		<pitch>76.2929</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Eb5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.448619</x>
+		<y>0.847634</y>
+		<pitch>75.3167</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Eb6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.644027</x>
+		<y>0.948704</y>
+		<pitch>75.1107</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Eb7.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.82758</x>
+		<y>0.443094</y>
+		<pitch>87.0332</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.F4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.796226</x>
+		<y>0.460691</y>
+		<pitch>87.0299</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.F5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.37887</x>
+		<y>0.52526</y>
+		<pitch>65.6701</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.F6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.342619</x>
+		<y>0.628584</y>
+		<pitch>76.9723</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.G4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.656798</x>
+		<y>0.679828</y>
+		<pitch>100.296</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.G5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.355958</x>
+		<y>0.347166</y>
+		<pitch>66.702</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.G6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.626462</x>
+		<y>0.224753</y>
+		<pitch>79.3331</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Gb4.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.713159</x>
+		<y>0.519218</y>
+		<pitch>80.1505</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Gb5.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.529175</x>
+		<y>0.767253</y>
+		<pitch>66.1068</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.hardrubber.ff.stereo/Xylophone.hardrubber.ff.Gb6.stereo.wav</path>
+		<color>255, 74, 255, 255</color>
+		<x>0.60036</x>
+		<y>0.769137</y>
+		<pitch>78.2118</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.A4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.591808</x>
+		<y>0.680607</y>
+		<pitch>90.0121</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.A5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.73745</x>
+		<y>0.581757</y>
+		<pitch>110.431</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Ab4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.705583</x>
+		<y>0.579569</y>
+		<pitch>81.1719</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Ab5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.722126</x>
+		<y>0.588161</y>
+		<pitch>56.2671</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.B4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.744037</x>
+		<y>0.615774</y>
+		<pitch>78.6242</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.B5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.69618</x>
+		<y>0.488564</y>
+		<pitch>84.0995</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.B6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.613058</x>
+		<y>0.306995</y>
+		<pitch>71.1135</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Bb4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.755192</x>
+		<y>0.519131</y>
+		<pitch>50.7203</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Bb5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.73226</x>
+		<y>0.548868</y>
+		<pitch>77.4737</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Bb6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.517872</x>
+		<y>0.672992</y>
+		<pitch>82.2101</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.C5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.547808</x>
+		<y>0.681467</y>
+		<pitch>109.697</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.C6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.683554</x>
+		<y>0.454628</y>
+		<pitch>84.5469</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.C7.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.794617</x>
+		<y>0.268372</y>
+		<pitch>84.137</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.D5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.762918</x>
+		<y>0.715845</y>
+		<pitch>106.456</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.D6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.77676</x>
+		<y>0.555332</y>
+		<pitch>72.6941</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Db5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.699076</x>
+		<y>0.356942</y>
+		<pitch>105.76</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Db6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.786134</x>
+		<y>0.568142</y>
+		<pitch>84.858</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.E5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.793769</x>
+		<y>0.585261</y>
+		<pitch>108.295</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.E6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.467401</x>
+		<y>0.810042</y>
+		<pitch>75.9412</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Eb5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.750114</x>
+		<y>0.710688</y>
+		<pitch>87.258</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Eb6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.691141</x>
+		<y>0.631854</y>
+		<pitch>75.2826</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Eb7.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.826694</x>
+		<y>0.443622</y>
+		<pitch>86.9768</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.F4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.796555</x>
+		<y>0.460668</y>
+		<pitch>79.9156</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.F5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.80263</x>
+		<y>0.650907</y>
+		<pitch>107.479</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.F6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.73211</x>
+		<y>0.485265</y>
+		<pitch>88.2432</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.G4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.657052</x>
+		<y>0.678819</y>
+		<pitch>99.6699</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.G5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.717957</x>
+		<y>0.602471</y>
+		<pitch>81.6725</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.G6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.735965</x>
+		<y>0.393702</y>
+		<pitch>79.9473</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Gb4.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.706309</x>
+		<y>0.533556</y>
+		<pitch>79.5414</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Gb5.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.70778</x>
+		<y>0.558116</y>
+		<pitch>108.87</pitch>
+	</testPoint>
+	<testPoint>
+		<path>samples/Xylophone.rosewood.ff.stereo/Xylophone.rosewood.ff.Gb6.stereo.wav</path>
+		<color>255, 74, 165, 255</color>
+		<x>0.592451</x>
+		<y>0.711311</y>
+		<pitch>78.1992</pitch>
+	</testPoint>
+</TSNE>
