@@ -4,51 +4,78 @@
 (define-macro (playTSNE x y n v d)
   `(io:osc:send (now) OF-server "/point" ,x ,y ,n ,v ,d))
 
+(define-macro (setChord a b c d)
+  `(io:osc:send (now) OF-server "/chord" ,a ,b ,c ,d))
+ 
+(define-macro (setConfidence min max)
+  `(io:osc:send (now) OF-server "/confidence" ,min ,max))
 
-(define *metre1* (make-metre '(3 3 2 3 2 3 3 3 2 2 1 2 1 1 1) 1/2))
-(define *metre2* (make-metre '(2) 1/4))
-(define *metre3* (make-metre '(4) 1/4))
+(define C 0)
+(define C# 1)
+(define D 2)
+(define D# 3)
+(define E 4)
+(define F 5)
+(define F# 6)
+(define G 7)
+(define G# 8)
+(define A 9)
+(define A# 10)
+(define B 11)
 
-(define a 500)
-(define b 300)
+
+(setChord D F A C)
+
+(define *metre1* (make-metre '(4 2 2 1) 1/4))
+(define *metre2* (make-metre '(3 2 1) 1/4))
+(define *metre3* (make-metre '(3 3 3 3 2 1 ) 1/4))
 
 (define T-SNampler
   (lambda (beat dur)
 
- ;(if (= (modulo beat 16) (random '(8 10 12)))
- ;   (set! *metre1* (make-metre '(6 2 3 2 3 3 3 2 2 1 2 1 1 1) (random '(1/4 1/2)))))
-
-    (if (= (modulo beat 16) 0)
-       (set! *metre1* (make-metre '(3 2 1) 1/2)))
-
-    (set! a (trir 500 200 1/64))
-    (set! b (cosr 300 200 1/32))
-
-    (set! *metre2* (make-metre '(3) (random '(1/4 1/4 1/4 1/8 1/6))))
-    ;(set! *metre3* (make-metre '(4 1 1 1 1 3 3 2 2 6 8) (random '(1 2 2 1/8))))
-
-  (if (*metre1* beat 3)
-   (playTSNE (cosr (- b 100) 20 1/32)
-             (cosr (- a 50) 10 1/16)
-             10
-             0.7
-             -1))
-
- (if (*metre1* beat 1)
-  (playTSNE (cosr a 50 1/12)
-            (sinr 650 30 1/8)
-            7
-            1.0
-            (random '(500  -1))))
-
-(if (*metre2* beat 1)
- (playTSNE (sinr 900 30 1/12)
-           (cosr (+ b 50) 30 1/18)
-           (random 7 11)
-           (* (random) 0.5)
-           (random '(1000 200 300))))
+  (setChord
+    (modulo beat 12)
+    (modulo beat 12)
+    (modulo beat 12)
+    (modulo beat 12)
+  
+    )
 
 
-  (if #t (callback (*metro* (+ beat (* .5 dur))) 'T-SNampler (+ beat dur) dur))))
+   (let ((radius (cosr 30 1 1/8))
+	 (x 720) 
+	 (y 450)
+	 (d (random '(100 100 100 -1)))
+	 )
+
+  (if (*metre1* beat 9)
+   (playTSNE (cosr x radius 1/8)
+             (sinr y radius 1/6)
+             5
+             0.9
+             d))
+
+  (if (*metre2* beat 9)
+   (playTSNE (cosr x radius 1/8)
+             (sinr (+ y 40) radius 1/6)
+             5
+             0.9
+             d))
+  
+  (if (*metre3* beat 9)
+   (playTSNE (cosr (- x 50) (+ 10 radius) 1/12)
+             (sinr (+ y 60) (+ 10 radius) 1/16)
+             5
+             0.9
+             d))
+  
+  (if (*metre3* beat 3)
+   (playTSNE (cosr (- x 30) (- 10 radius) 1/4)
+             (sinr (+ y 130) (- 10 radius) 1/4)
+             5
+             0.9
+             d)))
+  
+  (if #f (callback (*metro* (+ beat (* .5 dur))) 'T-SNampler (+ beat dur) dur))))
 
 (T-SNampler (*metro* 'get-beat 4) 1/16)

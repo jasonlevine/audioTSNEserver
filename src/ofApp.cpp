@@ -14,12 +14,7 @@ void ofApp::setup(){
     currentBox.set(0, 0, ofGetWidth(), ofGetHeight());
     zoomToPoints = true;
     
-    
-//    loadSamplesAndBuildGUI();
-//    loadSamplesAndRunTSNE();
-//    loadTSNE("settings.xml");
     receiver.setup(PORT);
-    
     
     star.load("dot.png");
     post.init(ofGetWidth(), ofGetHeight());
@@ -41,9 +36,14 @@ void ofApp::setup(){
     gui.add(loadSettingsButton.setup("Load Settings"));
     gui.add(saveSettingsButton.setup("Save Settings"));
     gui.add(pitchToDraw.setup("Pitch to draw", 0, 0, 11));
+    gui.add(minConfidence.setup("min conf", 0.0, 0.0, 0.9));
+    gui.add(maxConfidence.setup("max conf", 1.0, 0.1, 1.0));
     showGui = true;
     
-    playablePitches.push_back(0);
+    
+    for (int i = 0; i < 12; i++) playablePitches.push_back(i);
+//    minConfidence = 0.0;
+//    maxConfidence = 1.0;
 }
 
 
@@ -60,7 +60,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    post.begin();
+//    post.begin();
     beginzoom();
     
     ofSetRectMode(OF_RECTMODE_CENTER);
@@ -69,7 +69,7 @@ void ofApp::draw(){
     drawSelectedPoints();
     
     endzoom();
-    post.end();
+//    post.end();
     
     if (showGui) gui.draw();
 }
@@ -263,6 +263,10 @@ void ofApp::processOSC(){
                 if (!playable) tsnePoint.duration = 1; //this makes it fade out
             }
         }
+        else if (m.getAddress() == "/confidence"){
+            minConfidence = m.getArgAsFloat(0);
+            maxConfidence = m.getArgAsFloat(0);
+        }
     }
 }
 
@@ -303,7 +307,7 @@ void ofApp::playTSNE(float x, float y, int numNearPts, float mainVol, int dur){
         
         selectedPoints.clear();
         for (int i = 0; i < testPoints.size(); i++) {
-            if (isPlayable(testPoints[i].pitch)){
+            if (isPlayable(i)){
                 float dist = pos.squareDistance(testPoints[i].tsnePoint);
                 int flag = -1;
                 //for every potential closest point
@@ -359,15 +363,19 @@ void ofApp::playTSNE(float x, float y, int numNearPts, float mainVol, int dur){
 }
 
 //--------------------------------------------------------------
-bool ofApp::isPlayable(float pitch) {
+bool ofApp::isPlayable(int index) {
+    float confidence = testPoints[index].pitchConfidence;
+    if (confidence < minConfidence || confidence > maxConfidence) return false;
+    
     for (auto playable : playablePitches) {
-        if (int(pitch - 0.5) % 12 == playable) return true;
+        int pitchCenter = int(testPoints[index].pitch - 0.5);
+        if (pitchCenter % 12 == playable) return true;
     }
+    
     return false;
-//    return true;
 }
 
- //--------------------------------------------------------------
+//--------------------------------------------------------------
 void ofApp::saveTSNE(){
     //Open the Open File Dialog
     ofFileDialogResult openFileResult= ofSystemSaveDialog("settings", "Save your t-SNE!");
@@ -567,7 +575,7 @@ void ofApp::drawTSNE(){
         ofColor col;
         col.setHsb(testPoints[i].pitch * 2, 255, 255);
 //        ofSetColor(col, testPoints[i].pitchConfidence * 255);
-        ofSetColor(col, isPlayable(testPoints[i].pitch) ? 255 : 80);
+        ofSetColor(col, isPlayable(testPoints[i].pitch) ? 255 : 40);
 //        ofSetColor(testPoints[i].color,  200);
         star.draw(x, y, 15, 15);
 //        ofDrawCircle(x, y, 15);

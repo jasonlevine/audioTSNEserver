@@ -37,7 +37,7 @@ public:
     
     //play funcs
     void playTSNE(float x, float y, int numNearPts, float mainVol, int dur);
-    bool isPlayable(float pitch);
+    bool isPlayable(int index);
     
     
     
@@ -122,6 +122,7 @@ public:
     ofxButton loadSettingsButton;
     ofxButton saveSettingsButton;
     ofxIntSlider pitchToDraw;
+    ofxFloatSlider minConfidence, maxConfidence;
     bool showGui;
     
   //pitch
